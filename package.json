@@ -1,0 +1,31 @@
+{
+  "name": "utah-water-gardens",
+  "version": "1.0.0",
+  "description": "Utah Water Gardens - Professional pond services and aquatic solutions",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "start": "python -m http.server 8000",
+    "build": "echo 'Static site - no build required'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "pond-services",
+    "aquatic-plants",
+    "koi-fish",
+    "water-gardens",
+    "utah",
+    "pond-maintenance",
+    "pond-construction"
+  ],
+  "author": "Utah Water Gardens",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DeepthinkAIapp/uwg.git"
+  },
+  "homepage": "https://utahwatergardens.com",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
