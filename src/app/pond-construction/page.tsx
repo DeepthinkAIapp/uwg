@@ -1,39 +1,39 @@
 import { PageTemplate } from '@/components/layout/PageTemplate';
+import { FAQSection } from '@/components/sections/FAQSection';
 import Link from 'next/link';
 
 export default function PondConstructionPage() {
+  const faqs = [
+    {
+      question: "How long does pond construction take?",
+      answer: "Construction time varies based on pond size and complexity. Small ponds (under 500 gallons) typically take 1-3 days, medium ponds (500-2,000 gallons) take 3-7 days, and large ponds (2,000+ gallons) can take 1-3 weeks. We'll provide a detailed timeline during consultation."
+    },
+    {
+      question: "What's included in pond construction?",
+      answer: "Our construction includes excavation, liner installation, rock work, waterfall construction, plumbing, electrical setup, pump and filter installation, and initial landscaping. We also provide detailed maintenance instructions and warranty on all workmanship."
+    },
+    {
+      question: "Do you handle permits and regulations?",
+      answer: "Yes, we handle all necessary permits and ensure compliance with local regulations. This includes building permits, electrical permits, and any environmental requirements. We'll coordinate with local authorities to ensure your project meets all requirements."
+    },
+    {
+      question: "Can you build ponds in any location?",
+      answer: "We can build ponds in most locations, but site conditions affect design and cost. We assess soil type, drainage, water availability, and access before construction. Some sites may require additional preparation or alternative designs."
+    }
+  ];
+
   return (
-    <PageTemplate
-      heroTitle="Professional Pond Construction"
-      heroSubtitle="Custom water features designed and built to transform your outdoor space"
-      heroImage="/images/pondConstruction1000x800.webp"
-      heroAlt="Professional pond construction service in Utah"
-      breadcrumbs={[
-        { label: 'Pond Services', href: '/pond-services' },
-        { label: 'Pond Construction' }
-      ]}
-      showFAQ={true}
-      faqs={[
-        {
-          question: "How long does pond construction take?",
-          answer: "Construction time varies based on pond size and complexity. Small ponds (under 500 gallons) typically take 1-3 days, medium ponds (500-2,000 gallons) take 3-7 days, and large ponds (2,000+ gallons) can take 1-3 weeks. We'll provide a detailed timeline during consultation."
-        },
-        {
-          question: "What's included in pond construction?",
-          answer: "Our construction includes excavation, liner installation, rock work, waterfall construction, plumbing, electrical setup, pump and filter installation, and initial landscaping. We also provide detailed maintenance instructions and warranty on all workmanship."
-        },
-        {
-          question: "Do you handle permits and regulations?",
-          answer: "Yes, we handle all necessary permits and ensure compliance with local regulations. This includes building permits, electrical permits, and any environmental requirements. We'll coordinate with local authorities to ensure your project meets all requirements."
-        },
-        {
-          question: "Can you build ponds in any location?",
-          answer: "We can build ponds in most locations, but site conditions affect design and cost. We assess soil type, drainage, water availability, and access before construction. Some sites may require additional preparation or alternative designs."
-        }
-      ]}
-      metaTitle="Pond Construction Utah | Custom Water Features"
-      metaDescription="Professional pond construction in Utah. Custom water features, waterfalls, and koi ponds. Expert design and installation. Call 801-590-8516 for free consultation!"
-    >
+    <>
+      <PageTemplate
+        heroTitle="Professional Pond Construction"
+        heroSubtitle="Custom water features designed and built to transform your outdoor space"
+        heroImage="/images/pondConstruction1000x800.webp"
+        heroAlt="Professional pond construction service in Utah"
+        breadcrumbs={[
+          { label: 'Pond Services', href: '/pond-services' },
+          { label: 'Pond Construction' }
+        ]}
+      >
       <div className="content-section">
         <h2>Expert Pond Construction Services</h2>
         <p>
@@ -453,6 +453,9 @@ export default function PondConstructionPage() {
           </Link>
         </div>
       </div>
-    </PageTemplate>
+      </PageTemplate>
+      
+      <FAQSection faqs={faqs} />
+    </>
   );
 }

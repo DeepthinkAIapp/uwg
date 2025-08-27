@@ -11,20 +11,12 @@ interface PageTemplateProps {
   heroAlt?: string;
   showBreadcrumbs?: boolean;
   breadcrumbs?: Array<{ label: string; href?: string }>;
-  showTestimonials?: boolean;
-  showServices?: boolean;
+  showSidebar?: boolean;
   showCTA?: boolean;
   ctaTitle?: string;
   ctaDescription?: string;
   ctaButtonText?: string;
   ctaButtonLink?: string;
-  showFAQ?: boolean;
-  faqs?: Array<{ question: string; answer: string }>;
-  showGallery?: boolean;
-  galleryImages?: Array<{ src: string; alt: string; title?: string }>;
-  showContactForm?: boolean;
-  metaTitle?: string;
-  metaDescription?: string;
 }
 
 export function PageTemplate({
@@ -35,20 +27,12 @@ export function PageTemplate({
   heroAlt,
   showBreadcrumbs = true,
   breadcrumbs = [],
-  showTestimonials = true,
-  showServices = true,
+  showSidebar = true,
   showCTA = true,
   ctaTitle = "Ready to Transform Your Outdoor Space?",
   ctaDescription = "Contact us today for a free consultation and let us help you create the water garden of your dreams.",
   ctaButtonText = "Get Free Quote",
-  ctaButtonLink = "/contact",
-  showFAQ = false,
-  faqs = [],
-  showGallery = false,
-  galleryImages = [],
-  showContactForm = false,
-  metaTitle,
-  metaDescription
+  ctaButtonLink = "/contact"
 }: PageTemplateProps) {
   return (
     <div className="page-template">
@@ -63,12 +47,6 @@ export function PageTemplate({
                 fill
                 style={{ objectFit: 'cover' }}
                 priority
-                onError={(e) => {
-                  console.error(`Failed to load image: ${heroImage}`);
-                  // Fallback to a default background color if image fails
-                  const target = e.target as HTMLImageElement;
-                  target.style.display = 'none';
-                }}
               />
             )}
             <div className="hero-overlay"></div>
@@ -133,44 +111,44 @@ export function PageTemplate({
             </div>
 
             {/* Sidebar */}
-            <aside className="content-sidebar">
-              {/* Quick Contact */}
-              <div className="sidebar-widget contact-widget">
-                <h3 className="widget-title">
-                  <i className="fas fa-phone"></i>
-                  Get In Touch
-                </h3>
-                <div className="contact-info">
-                  <div className="contact-item">
-                    <i className="fas fa-map-marker-alt"></i>
-                    <div>
-                      <strong>Address</strong>
-                      <p>5911 S 1300 E<br />Salt Lake City, Utah 84121</p>
-                    </div>
-                  </div>
-                  <div className="contact-item">
+            {showSidebar && (
+              <aside className="content-sidebar">
+                {/* Quick Contact */}
+                <div className="sidebar-widget contact-widget">
+                  <h3 className="widget-title">
                     <i className="fas fa-phone"></i>
-                    <div>
-                      <strong>Phone</strong>
-                      <a href="tel:8015908516">801-590-8516</a>
+                    Get In Touch
+                  </h3>
+                  <div className="contact-info">
+                    <div className="contact-item">
+                      <i className="fas fa-map-marker-alt"></i>
+                      <div>
+                        <strong>Address</strong>
+                        <p>5911 S 1300 E<br />Salt Lake City, Utah 84121</p>
+                      </div>
+                    </div>
+                    <div className="contact-item">
+                      <i className="fas fa-phone"></i>
+                      <div>
+                        <strong>Phone</strong>
+                        <a href="tel:8015908516">801-590-8516</a>
+                      </div>
+                    </div>
+                    <div className="contact-item">
+                      <i className="far fa-envelope"></i>
+                      <div>
+                        <strong>Email</strong>
+                        <a href="mailto:contact@utahwatergardens.com">contact@utahwatergardens.com</a>
+                      </div>
                     </div>
                   </div>
-                  <div className="contact-item">
-                    <i className="far fa-envelope"></i>
-                    <div>
-                      <strong>Email</strong>
-                      <a href="mailto:contact@utahwatergardens.com">contact@utahwatergardens.com</a>
-                    </div>
-                  </div>
+                  <Link href="/contact" className="contact-button">
+                    <i className="fas fa-envelope"></i>
+                    Send Message
+                  </Link>
                 </div>
-                <Link href="/contact" className="contact-button">
-                  <i className="fas fa-envelope"></i>
-                  Send Message
-                </Link>
-              </div>
 
-              {/* Services Widget */}
-              {showServices && (
+                {/* Services Widget */}
                 <div className="sidebar-widget services-widget">
                   <h3 className="widget-title">
                     <i className="fas fa-tools"></i>
@@ -233,10 +211,8 @@ export function PageTemplate({
                     </li>
                   </ul>
                 </div>
-              )}
 
-              {/* Testimonials Widget */}
-              {showTestimonials && (
+                {/* Testimonials Widget */}
                 <div className="sidebar-widget testimonials-widget">
                   <h3 className="widget-title">
                     <i className="fas fa-star"></i>
@@ -263,60 +239,11 @@ export function PageTemplate({
                     <i className="fas fa-arrow-right"></i>
                   </Link>
                 </div>
-              )}
-
-              {/* Gallery Widget */}
-              {showGallery && galleryImages.length > 0 && (
-                <div className="sidebar-widget gallery-widget">
-                  <h3 className="widget-title">
-                    <i className="fas fa-images"></i>
-                    Recent Projects
-                  </h3>
-                  <div className="gallery-grid">
-                    {galleryImages.slice(0, 6).map((image, index) => (
-                      <div key={index} className="gallery-item">
-                        <Image
-                          src={image.src}
-                          alt={image.alt}
-                          width={100}
-                          height={100}
-                          style={{ objectFit: 'cover' }}
-                        />
-                      </div>
-                    ))}
-                  </div>
-                  <Link href="/pond-gallery" className="gallery-link">
-                    View Full Gallery
-                    <i className="fas fa-arrow-right"></i>
-                  </Link>
-                </div>
-              )}
-            </aside>
+              </aside>
+            )}
           </div>
         </div>
       </main>
-
-      {/* FAQ Section */}
-      {showFAQ && faqs.length > 0 && (
-        <section className="faq-section">
-          <div className="container">
-            <div className="section-header">
-              <h2 className="section-title">Frequently Asked Questions</h2>
-              <p className="section-subtitle">Get answers to common questions about our services</p>
-            </div>
-            <div className="faq-list">
-              {faqs.map((faq, index) => (
-                <div key={index} className="faq-item">
-                  <h3 className="faq-question">{faq.question}</h3>
-                  <div className="faq-answer">
-                    <p>{faq.answer}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
 
       {/* Call to Action */}
       {showCTA && (
@@ -334,95 +261,6 @@ export function PageTemplate({
                   <i className="fas fa-calendar"></i>
                   Schedule Consultation
                 </Link>
-              </div>
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* Contact Form */}
-      {showContactForm && (
-        <section className="contact-form-section">
-          <div className="container">
-            <div className="contact-form-wrapper">
-              <div className="contact-form-content">
-                <h2 className="contact-form-title">Get Your Free Quote</h2>
-                <p className="contact-form-description">
-                  Fill out the form below and we&apos;ll get back to you within 24 hours with a personalized quote.
-                </p>
-                <form className="contact-form">
-                  <div className="form-row">
-                    <div className="form-group">
-                      <label htmlFor="firstName">First Name *</label>
-                      <input
-                        type="text"
-                        id="firstName"
-                        name="firstName"
-                        required
-                        className="form-input"
-                      />
-                    </div>
-                    <div className="form-group">
-                      <label htmlFor="lastName">Last Name *</label>
-                      <input
-                        type="text"
-                        id="lastName"
-                        name="lastName"
-                        required
-                        className="form-input"
-                      />
-                    </div>
-                  </div>
-                  <div className="form-row">
-                    <div className="form-group">
-                      <label htmlFor="email">Email *</label>
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        required
-                        className="form-input"
-                      />
-                    </div>
-                    <div className="form-group">
-                      <label htmlFor="phone">Phone *</label>
-                      <input
-                        type="tel"
-                        id="phone"
-                        name="phone"
-                        required
-                        className="form-input"
-                      />
-                    </div>
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="service">Service Needed</label>
-                    <select id="service" name="service" className="form-select">
-                      <option value="">Select a service</option>
-                      <option value="pond-cleanings">Pond Cleanings</option>
-                      <option value="pond-maintenance">Pond Maintenance</option>
-                      <option value="pond-construction">Pond Construction</option>
-                      <option value="pond-repair">Pond Repair</option>
-                      <option value="lake-dredging">Lake Dredging</option>
-                      <option value="plant-delivery">Plant Delivery</option>
-                      <option value="consultation">Consultation</option>
-                    </select>
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="message">Project Details</label>
-                    <textarea
-                      id="message"
-                      name="message"
-                      rows={4}
-                      className="form-textarea"
-                      placeholder="Tell us about your project..."
-                    ></textarea>
-                  </div>
-                  <button type="submit" className="form-submit">
-                    <i className="fas fa-paper-plane"></i>
-                    Send Message
-                  </button>
-                </form>
               </div>
             </div>
           </div>

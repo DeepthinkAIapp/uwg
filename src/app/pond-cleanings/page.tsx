@@ -1,39 +1,39 @@
 import { PageTemplate } from '@/components/layout/PageTemplate';
+import { FAQSection } from '@/components/sections/FAQSection';
 import Link from 'next/link';
 
 export default function PondCleaningsPage() {
+  const faqs = [
+    {
+      question: "How often should I have my pond cleaned?",
+      answer: "Most ponds benefit from professional cleaning 1-2 times per year, typically in spring and fall. Ponds with fish may need more frequent cleaning, while plant-only ponds may need less. We'll assess your specific situation and recommend the optimal schedule."
+    },
+    {
+      question: "What's included in a professional pond cleaning?",
+      answer: "Our cleaning service includes debris removal, algae control, filter cleaning, pump maintenance, water quality testing, and plant trimming. We also inspect equipment and provide recommendations for ongoing maintenance."
+    },
+    {
+      question: "Do you clean ponds with fish?",
+      answer: "Yes, we have extensive experience cleaning ponds with fish. We use fish-safe methods and can temporarily relocate fish if needed. We'll ensure your fish remain safe and healthy throughout the cleaning process."
+    },
+    {
+      question: "How long does a pond cleaning take?",
+      answer: "Cleaning time depends on pond size and condition. Small ponds (under 500 gallons) typically take 2-4 hours, medium ponds (500-2,000 gallons) take 4-8 hours, and large ponds (2,000+ gallons) can take a full day or more."
+    }
+  ];
+
   return (
-    <PageTemplate
-      heroTitle="Professional Pond Cleaning Services"
-      heroSubtitle="Expert cleaning and maintenance to keep your pond beautiful and healthy"
-      heroImage="/images/pondCleaning1000x800.webp"
-      heroAlt="Professional pond cleaning service in Utah"
-      breadcrumbs={[
-        { label: 'Pond Services', href: '/pond-services' },
-        { label: 'Pond Cleanings' }
-      ]}
-      showFAQ={true}
-      faqs={[
-        {
-          question: "How often should I have my pond cleaned?",
-          answer: "Most ponds benefit from professional cleaning 1-2 times per year, typically in spring and fall. Ponds with fish may need more frequent cleaning, while plant-only ponds may need less. We'll assess your specific situation and recommend the optimal schedule."
-        },
-        {
-          question: "What's included in a professional pond cleaning?",
-          answer: "Our cleaning service includes debris removal, algae control, filter cleaning, pump maintenance, water quality testing, and plant trimming. We also inspect equipment and provide recommendations for ongoing maintenance."
-        },
-        {
-          question: "Do you clean ponds with fish?",
-          answer: "Yes, we have extensive experience cleaning ponds with fish. We use fish-safe methods and can temporarily relocate fish if needed. We'll ensure your fish remain safe and healthy throughout the cleaning process."
-        },
-        {
-          question: "How long does a pond cleaning take?",
-          answer: "Cleaning time depends on pond size and condition. Small ponds (under 500 gallons) typically take 2-4 hours, medium ponds (500-2,000 gallons) take 4-8 hours, and large ponds (2,000+ gallons) can take a full day or more."
-        }
-      ]}
-      metaTitle="Pond Cleaning Utah | Professional Pond Maintenance"
-      metaDescription="Professional pond cleaning services in Utah. Expert algae removal, debris cleanup, and water quality maintenance. Keep your pond beautiful and healthy. Call 801-590-8516 today!"
-    >
+    <>
+      <PageTemplate
+        heroTitle="Professional Pond Cleaning Services"
+        heroSubtitle="Expert cleaning and maintenance to keep your pond beautiful and healthy"
+        heroImage="/images/pondCleaning1000x800.webp"
+        heroAlt="Professional pond cleaning service in Utah"
+        breadcrumbs={[
+          { label: 'Pond Services', href: '/pond-services' },
+          { label: 'Pond Cleanings' }
+        ]}
+      >
       <div className="content-section">
         <h2>Expert Pond Cleaning Services</h2>
         <p>
@@ -412,6 +412,9 @@ export default function PondCleaningsPage() {
           </Link>
         </div>
       </div>
-    </PageTemplate>
+      </PageTemplate>
+      
+      <FAQSection faqs={faqs} />
+    </>
   );
 }

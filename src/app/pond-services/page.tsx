@@ -6,12 +6,9 @@ import Image from 'next/image';
 export default function PondServicesPage() {
   return (
     <PageTemplate
-      showBreadcrumbs={true}
       breadcrumbs={[
         { label: 'Pond Services', href: '/pond-services' }
       ]}
-      showTestimonials={true}
-      showServices={true}
       showCTA={true}
       ctaTitle="Ready to Transform Your Pond?"
       ctaDescription="Contact us today for professional pond services and let us help you create the water garden of your dreams."
