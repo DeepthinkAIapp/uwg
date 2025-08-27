@@ -21,7 +21,7 @@ export default function HomePage() {
           </video>
           <div className="video-overlay">
             <div className="hero-content">
-              <h1>Utah Water Gardens</h1>
+              <h1>Utah Water Gardens - Premium Pond Services</h1>
               <p>Transform your outdoor space with beautiful custom ponds, waterfalls, and aquatic landscapes. Professional pond services throughout Utah.</p>
               <div className="hero-buttons">
                 <Link href="/pond-services" className="hero-button primary">
