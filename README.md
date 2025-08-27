@@ -4,7 +4,7 @@ A professional static website for Utah Water Gardens, featuring comprehensive po
 
 ## 🏠 Live Site
 - **Production**: https://utahwatergardens.com
-- **Development**: http://localhost:8000
+- **Development**: http://localhost:3000
 
 cd utah-water-gardens-nextjs; npm run dev
 

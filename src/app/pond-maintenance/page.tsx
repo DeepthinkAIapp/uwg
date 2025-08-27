@@ -1,5 +1,4 @@
 ﻿import { PageTemplate } from '@/components/layout/PageTemplate';
-import Image from 'next/image';
 import Link from 'next/link';
 
 export default function PondMaintenancePage() {
