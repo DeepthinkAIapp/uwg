@@ -22,7 +22,7 @@ export function Search() {
 
   const handleResultClick = (page: { category: string; slug: string }) => {
     setIsOpen(false);
-    setQuery(&apos;&apos;);
+    setQuery('');
     router.push(`/${page.category}/${page.slug}`);
   };
 
@@ -40,7 +40,7 @@ export function Search() {
           placeholder="Search services, plants, or topics..."
           className="search-input"
           style={{
-            width: &apos;100%&apos;,
+            width: '100%',
             padding: 'var(--spacing-md) var(--spacing-lg)',
             paddingLeft: 'calc(var(--spacing-lg) + 20px)',
             border: '1px solid var(--gray-300)',
@@ -102,7 +102,7 @@ export function Search() {
                   className="search-result"
                   onClick={() => handleResultClick(page)}
                   style={{
-                    padding: &apos;var(--spacing-md)&apos;,
+                    padding: 'var(--spacing-md)',
                     borderBottom: '1px solid var(--gray-100)',
                     cursor: 'pointer',
                     transition: 'var(--transition-fast)'
