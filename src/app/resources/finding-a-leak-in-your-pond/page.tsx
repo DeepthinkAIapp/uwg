@@ -62,7 +62,7 @@ export default function FindingLeakInPondPage() {
             <p>
               <strong>Monitor water level:</strong> Mark the water level and check daily for a week<br />
               <strong>Note weather conditions:</strong> Temperature, humidity, and wind speed<br />
-              <strong>Calculate loss rate:</strong> Measure how much water you're losing per day<br />
+              <strong>Calculate loss rate:</strong> Measure how much water you&apos;re losing per day<br />
               <strong>Check for patterns:</strong> Does loss vary with weather or equipment operation?
             </p>
           </div>
@@ -104,7 +104,7 @@ export default function FindingLeakInPondPage() {
             <div className="step-number">5</div>
             <h3>Professional Assessment</h3>
             <p>
-              <strong>Contact professionals:</strong> If you can't locate the leak or need expert help<br />
+              <strong>Contact professionals:</strong> If you can&apos;t locate the leak or need expert help<br />
               <strong>Advanced detection:</strong> Professional equipment can find hidden leaks<br />
               <strong>Comprehensive repair:</strong> Ensure the leak is properly fixed<br />
               <strong>Prevention planning:</strong> Learn how to prevent future leaks
@@ -220,8 +220,8 @@ export default function FindingLeakInPondPage() {
             <div className="sign-icon">
               <i className="fas fa-exclamation-triangle"></i>
             </div>
-            <h4>Can't Locate the Leak</h4>
-            <p>If you've tried all DIY methods but still can't find the source of the leak</p>
+            <h4>Can&apos;t Locate the Leak</h4>
+            <p>If you&apos;ve tried all DIY methods but still can&apos;t find the source of the leak</p>
           </div>
 
           <div className="sign-item">
@@ -253,7 +253,7 @@ export default function FindingLeakInPondPage() {
               <i className="fas fa-exclamation-triangle"></i>
             </div>
             <h4>Emergency Situation</h4>
-            <p>If you're losing water rapidly or fish are at risk</p>
+            <p>If you&apos;re losing water rapidly or fish are at risk</p>
           </div>
 
           <div className="sign-item">
@@ -380,7 +380,7 @@ export default function FindingLeakInPondPage() {
       <div className="content-section">
         <h2>Need Professional Leak Detection?</h2>
         <p>
-          Don't let a leak compromise your pond's health and beauty. Contact us today for 
+          Don&apos;t let a leak compromise your pond&apos;s health and beauty. Contact us today for 
           professional leak detection and repair services.
         </p>
         

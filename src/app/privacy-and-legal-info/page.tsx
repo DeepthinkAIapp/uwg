@@ -215,7 +215,7 @@ export default function PrivacyAndLegalInfoPage() {
             <div className="container">
               <div className="cta-content">
                 <h2>Questions About Our Policies?</h2>
-                <p>We're here to help clarify any questions you may have about our privacy policy, terms of service, or legal information.</p>
+                <p>We&apos;re here to help clarify any questions you may have about our privacy policy, terms of service, or legal information.</p>
                 <div className="cta-buttons">
                   <Link href="/contact" className="cta-button primary">
                     <i className="fas fa-phone"></i>

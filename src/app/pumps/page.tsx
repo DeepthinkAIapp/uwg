@@ -1,4 +1,4 @@
-﻿import { PageTemplate } from '@/components/layout/PageTemplate';
+import { PageTemplate } from '@/components/layout/PageTemplate';
 import Link from 'next/link';
 
 export default function PumpsPage() {
@@ -65,7 +65,7 @@ export default function PumpsPage() {
             <h3>Pump Sizing & Selection</h3>
             <p>
               Expert pump sizing based on your pond volume, desired flow rate, head height, and features. 
-              We'll recommend the perfect pump for your specific needs and ensure optimal performance.
+              We&apos;ll recommend the perfect pump for your specific needs and ensure optimal performance.
             </p>
           </div>
 
@@ -87,7 +87,7 @@ export default function PumpsPage() {
             <h3>Pump Maintenance</h3>
             <p>
               Regular pump maintenance including cleaning, inspection, and performance optimization. 
-              We'll create a maintenance schedule to keep your pump running efficiently year-round.
+              We&apos;ll create a maintenance schedule to keep your pump running efficiently year-round.
             </p>
           </div>
 
@@ -109,7 +109,7 @@ export default function PumpsPage() {
             <h3>Pump Upgrades</h3>
             <p>
               Upgrade your existing pump to improve performance, reduce energy consumption, or add new 
-              features. We'll recommend upgrades that work with your current system or suggest complete replacements.
+              features. We&apos;ll recommend upgrades that work with your current system or suggest complete replacements.
             </p>
           </div>
 
@@ -119,7 +119,7 @@ export default function PumpsPage() {
             </div>
             <h3>Flow Optimization</h3>
             <p>
-              Optimize your pump's flow rate and pressure for maximum efficiency. We'll adjust settings 
+              Optimize your pump&apos;s flow rate and pressure for maximum efficiency. We&apos;ll adjust settings 
               and plumbing to ensure your pump operates at peak performance while minimizing energy costs.
             </p>
           </div>
@@ -240,7 +240,7 @@ export default function PumpsPage() {
             </div>
             <h3>Complete Failure</h3>
             <p>
-              <strong>Signs:</strong> No water flow, pump won't start<br />
+              <strong>Signs:</strong> No water flow, pump won&apos;t start<br />
               <strong>Causes:</strong> Electrical issues, seized motor, severe damage<br />
               <strong>Solution:</strong> Check electrical connections, assess repair vs. replacement
             </p>
@@ -445,7 +445,7 @@ export default function PumpsPage() {
       <div className="content-section">
         <h2>Need Pump Service?</h2>
         <p>
-          Don't let pump problems compromise your pond's health and beauty. Contact us today for 
+          Don&apos;t let pump problems compromise your pond&apos;s health and beauty. Contact us today for 
           professional pump installation, maintenance, or repair services.
         </p>
         

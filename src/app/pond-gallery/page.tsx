@@ -1,4 +1,4 @@
-﻿import { PageTemplate } from '@/components/layout/PageTemplate';
+import { PageTemplate } from '@/components/layout/PageTemplate';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -37,16 +37,16 @@ export default function PondGalleryPage() {
       <div className="content-section">
         <h2>Our Pond Gallery</h2>
         <p>
-          Welcome to our comprehensive gallery showcasing the beautiful water features we've created 
+          Welcome to our comprehensive gallery showcasing the beautiful water features we&apos;ve created 
           throughout Utah. From intimate garden ponds to grand koi ponds with waterfalls, our gallery 
           demonstrates the quality, creativity, and attention to detail that goes into every project. 
           Each image represents a unique transformation, carefully designed and built to enhance the 
-          beauty and value of our clients' properties. Browse through our projects to get inspired 
+          beauty and value of our clients&apos; properties. Browse through our projects to get inspired 
           for your own water feature.
         </p>
 
         <div className="info-box">
-          <h3>What You'll Find in Our Gallery</h3>
+          <h3>What You&apos;ll Find in Our Gallery</h3>
           <p>
             <strong>Before & After:</strong> See the complete transformation from start to finish<br />
             <strong>Project Variety:</strong> Different styles, sizes, and types of water features<br />

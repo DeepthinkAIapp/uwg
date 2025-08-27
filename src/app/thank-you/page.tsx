@@ -8,7 +8,7 @@ export default function ThankYouPage() {
       <section className="page-header">
         <div className="container">
           <h1 className="entry-title">Thank You!</h1>
-          <p className="entry-subtitle">We've Received Your Message</p>
+          <p className="entry-subtitle">We&apos;ve Received Your Message</p>
         </div>
       </section>
 

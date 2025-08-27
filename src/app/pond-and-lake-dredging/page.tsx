@@ -1,4 +1,4 @@
-﻿import { PageTemplate } from '@/components/layout/PageTemplate';
+import { PageTemplate } from '@/components/layout/PageTemplate';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -313,7 +313,7 @@ export default function PondAndLakeDredgingPage() {
       <div className="content-section">
         <h2>Ready to Restore Your Water Feature?</h2>
         <p>
-          Don't let sediment buildup compromise your water feature's beauty and health. Contact us today for 
+          Don&apos;t let sediment buildup compromise your water feature&apos;s beauty and health. Contact us today for 
           a professional assessment and dredging consultation.
         </p>
         

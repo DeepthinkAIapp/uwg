@@ -43,7 +43,7 @@ export function getAllPages(): PageContent[] {
       });
     
     return pages.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
-  } catch (error) {
+  } catch (_error) {
     console.warn('No content pages found yet. Create some markdown files in content/pages/');
     return [];
   }

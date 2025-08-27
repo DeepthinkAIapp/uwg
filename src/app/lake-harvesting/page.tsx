@@ -68,7 +68,7 @@ export default function LakeHarvestingPage() {
             </div>
             <h3>Lake Assessment</h3>
             <p>
-              Comprehensive evaluation of your lake's fish population including species identification, 
+              Comprehensive evaluation of your lake&apos;s fish population including species identification, 
               size distribution, population density, and overall ecosystem health assessment.
             </p>
           </div>
@@ -446,7 +446,7 @@ export default function LakeHarvestingPage() {
       <div className="content-section">
         <h2>Need Lake Harvesting?</h2>
         <p>
-          Don't let overcrowding compromise your lake's health and fishing quality. Contact us today 
+          Don&apos;t let overcrowding compromise your lake&apos;s health and fishing quality. Contact us today 
           for professional harvesting services that will restore balance to your lake ecosystem.
         </p>
         

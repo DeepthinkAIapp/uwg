@@ -20,9 +20,9 @@ export function Search() {
     ).slice(0, 10); // Limit to 10 results
   }, [query, pages]);
 
-  const handleResultClick = (page: any) => {
+  const handleResultClick = (page: { category: string; slug: string }) => {
     setIsOpen(false);
-    setQuery('');
+    setQuery(&apos;&apos;);
     router.push(`/${page.category}/${page.slug}`);
   };
 
@@ -40,7 +40,7 @@ export function Search() {
           placeholder="Search services, plants, or topics..."
           className="search-input"
           style={{
-            width: '100%',
+            width: &apos;100%&apos;,
             padding: 'var(--spacing-md) var(--spacing-lg)',
             paddingLeft: 'calc(var(--spacing-lg) + 20px)',
             border: '1px solid var(--gray-300)',
@@ -102,7 +102,7 @@ export function Search() {
                   className="search-result"
                   onClick={() => handleResultClick(page)}
                   style={{
-                    padding: 'var(--spacing-md)',
+                    padding: &apos;var(--spacing-md)&apos;,
                     borderBottom: '1px solid var(--gray-100)',
                     cursor: 'pointer',
                     transition: 'var(--transition-fast)'
@@ -153,7 +153,7 @@ export function Search() {
                 textAlign: 'center',
                 color: 'var(--gray-500)'
               }}>
-                No results found for "{query}"
+                No results found for &ldquo;{query}&rdquo;
               </div>
             )}
           </div>

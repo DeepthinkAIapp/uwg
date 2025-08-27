@@ -16,19 +16,19 @@ export default function PondHarvestingPage() {
       faqs={[
         {
           question: "What is pond harvesting and why is it necessary?",
-          answer: "Pond harvesting involves selectively removing fish from your pond to maintain optimal population levels, improve fish health, and prevent overcrowding. It's essential for maintaining water quality and ensuring the remaining fish have adequate space and resources."
+          answer: "Pond harvesting involves selectively removing fish from your pond to maintain optimal population levels, improve fish health, and prevent overcrowding. It&apos;s essential for maintaining water quality and ensuring the remaining fish have adequate space and resources."
         },
         {
           question: "How often should I harvest my pond?",
-          answer: "Harvesting frequency depends on your pond size, fish population, and goals. Most ponds benefit from harvesting every 1-3 years. We'll assess your specific situation and recommend the optimal schedule for your pond."
+          answer: "Harvesting frequency depends on your pond size, fish population, and goals. Most ponds benefit from harvesting every 1-3 years. We&apos;ll assess your specific situation and recommend the optimal schedule for your pond."
         },
         {
           question: "Do you harvest all the fish or just some?",
-          answer: "We practice selective harvesting, removing only specific fish based on size, health, and population management goals. We never harvest all fish unless you're planning to completely restock the pond."
+          answer: "We practice selective harvesting, removing only specific fish based on size, health, and population management goals. We never harvest all fish unless you&apos;re planning to completely restock the pond."
         },
         {
           question: "What happens to the harvested fish?",
-          answer: "We offer several options for harvested fish: relocation to other ponds, donation to educational facilities, or humane processing. We'll discuss your preferences and handle the fish according to your wishes."
+          answer: "We offer several options for harvested fish: relocation to other ponds, donation to educational facilities, or humane processing. We&apos;ll discuss your preferences and handle the fish according to your wishes."
         }
       ]}
       metaTitle="Pond Harvesting Utah | Professional Fish Population Management"
@@ -256,7 +256,7 @@ export default function PondHarvestingPage() {
             <div className="step-number">1</div>
             <h3>Initial Assessment</h3>
             <p>
-              We evaluate your pond's fish population, water quality, and overall ecosystem health 
+              We evaluate your pond&apos;s fish population, water quality, and overall ecosystem health 
               to determine the optimal harvesting strategy and goals.
             </p>
           </div>
@@ -443,7 +443,7 @@ export default function PondHarvestingPage() {
       <div className="content-section">
         <h2>Need Pond Harvesting?</h2>
         <p>
-          Don't let overcrowding compromise your pond's health and fish quality. Contact us today 
+          Don&apos;t let overcrowding compromise your pond&apos;s health and fish quality. Contact us today 
           for professional harvesting services that will restore balance to your pond ecosystem.
         </p>
         

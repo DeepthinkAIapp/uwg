@@ -1,4 +1,7 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 import { notFound } from 'next/navigation';
+import Link from 'next/link';
+import Image from 'next/image';
 import { getPageBySlug, getAllPages } from '@/lib/content';
 
 interface ServicePageProps {
@@ -26,9 +29,9 @@ export default async function ServicePage({ params }: ServicePageProps) {
       <div style={{ maxWidth: '800px', margin: '0 auto' }}>
         {/* Breadcrumb */}
         <nav style={{ marginBottom: 'var(--spacing-xl)' }}>
-          <a href="/" style={{ color: 'var(--gray-500)' }}>Home</a>
+          <Link href="/" style={{ color: 'var(--gray-500)' }}>Home</Link>
           <span style={{ margin: '0 var(--spacing-sm)', color: 'var(--gray-400)' }}>/</span>
-          <a href="/pond-services" style={{ color: 'var(--gray-500)' }}>Pond Services</a>
+          <Link href="/pond-services" style={{ color: 'var(--gray-500)' }}>Pond Services</Link>
           <span style={{ margin: '0 var(--spacing-sm)', color: 'var(--gray-400)' }}>/</span>
           <span style={{ color: 'var(--primary-blue)' }}>{page.title}</span>
         </nav>
@@ -57,9 +60,11 @@ export default async function ServicePage({ params }: ServicePageProps) {
         {/* Featured Image */}
         {page.featuredImage && (
           <div style={{ marginBottom: 'var(--spacing-2xl)' }}>
-            <img 
+            <Image 
               src={page.featuredImage} 
               alt={page.title}
+              width={800}
+              height={600}
               style={{ 
                 width: '100%', 
                 height: 'auto', 
@@ -119,7 +124,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
             Contact us today to schedule your {page.title.toLowerCase()} service.
           </p>
           <div style={{ display: 'flex', gap: 'var(--spacing-lg)', justifyContent: 'center', flexWrap: 'wrap' }}>
-            <a href="/contact" style={{ 
+            <Link href="/contact" style={{ 
               background: 'var(--primary-blue)', 
               color: 'var(--white)', 
               padding: 'var(--spacing-md) var(--spacing-xl)',
@@ -128,8 +133,8 @@ export default async function ServicePage({ params }: ServicePageProps) {
               textDecoration: 'none'
             }}>
               Contact Us
-            </a>
-            <a href="/pond-services/schedule" style={{ 
+            </Link>
+            <Link href="/pond-services/schedule" style={{ 
               background: 'var(--white)', 
               color: 'var(--primary-blue)', 
               padding: 'var(--spacing-md) var(--spacing-xl)',
@@ -139,7 +144,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
               border: '2px solid var(--primary-blue)'
             }}>
               Schedule Service
-            </a>
+            </Link>
           </div>
         </div>
       </div>
