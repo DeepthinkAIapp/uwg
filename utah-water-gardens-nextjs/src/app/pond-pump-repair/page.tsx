@@ -1,4 +1,4 @@
-﻿import { PageTemplate } from '@/components/layout/PageTemplate';
+import { PageTemplate } from '@/components/layout/PageTemplate';
 import Link from 'next/link';
 
 export default function PondPumpRepairPage() {
@@ -195,7 +195,7 @@ export default function PondPumpRepairPage() {
             <div className="step-number">2</div>
             <h3>Detailed Diagnosis</h3>
             <p>
-              Using professional diagnostic equipment, we pinpoint the exact cause of the problem. We'll 
+              Using professional diagnostic equipment, we pinpoint the exact cause of the problem. We&apos;ll 
               provide you with a detailed report and explain what needs to be repaired and why.
             </p>
           </div>
@@ -204,7 +204,7 @@ export default function PondPumpRepairPage() {
             <div className="step-number">3</div>
             <h3>Repair Plan</h3>
             <p>
-              We develop a comprehensive repair plan that addresses all issues found. You'll receive a 
+              We develop a comprehensive repair plan that addresses all issues found. You&apos;ll receive a 
               detailed quote with parts, labor, and timeline before we begin any work.
             </p>
           </div>
@@ -222,7 +222,7 @@ export default function PondPumpRepairPage() {
             <div className="step-number">5</div>
             <h3>Testing & Optimization</h3>
             <p>
-              After repairs are complete, we thoroughly test the pump to ensure it's operating at peak 
+              After repairs are complete, we thoroughly test the pump to ensure it&apos;s operating at peak 
               efficiency. We also optimize settings for your specific pond requirements.
             </p>
           </div>
@@ -276,7 +276,7 @@ export default function PondPumpRepairPage() {
       <div className="content-section">
         <h2>Emergency Repair Services</h2>
         <p>
-          Pump failures can quickly lead to serious pond problems. That's why we offer 24/7 emergency 
+          Pump failures can quickly lead to serious pond problems. That&apos;s why we offer 24/7 emergency 
           repair services to get your pump running again as quickly as possible.
         </p>
 
@@ -339,7 +339,7 @@ export default function PondPumpRepairPage() {
       <div className="content-section">
         <h2>Ready to Get Your Pump Fixed?</h2>
         <p>
-          Don't let a malfunctioning pump compromise your pond's health and beauty. Contact us today 
+          Don&apos;t let a malfunctioning pump compromise your pond&apos;s health and beauty. Contact us today 
           for professional pump repair services that will get your water feature running smoothly again.
         </p>
         

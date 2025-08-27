@@ -1,4 +1,5 @@
 'use client';
+import { ReactNode } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -46,8 +47,8 @@ export function PageTemplate({
   showGallery = false,
   galleryImages = [],
   showContactForm = false,
-  metaTitle: _metaTitle,
-  metaDescription: _metaDescription
+  metaTitle,
+  metaDescription
 }: PageTemplateProps) {
   return (
     <div className="page-template">
@@ -66,7 +67,7 @@ export function PageTemplate({
                   console.error(`Failed to load image: ${heroImage}`);
                   // Fallback to a default background color if image fails
                   const target = e.target as HTMLImageElement;
-                  target.style.display = &apos;none';
+                  target.style.display = 'none';
                 }}
               />
             )}

@@ -1,4 +1,4 @@
-﻿import { PageTemplate } from '@/components/layout/PageTemplate';
+import { PageTemplate } from '@/components/layout/PageTemplate';
 import Link from 'next/link';
 
 export default function PondCleaningsPage() {
@@ -41,7 +41,7 @@ export default function PondCleaningsPage() {
           is essential for maintaining water quality, preventing algae growth, and ensuring your aquatic 
           life thrives. Our experienced team uses specialized equipment and techniques to thoroughly 
           clean your pond while protecting fish and plants. From debris removal to water quality 
-          optimization, we provide comprehensive cleaning solutions that restore your pond's natural beauty.
+          optimization, we provide comprehensive cleaning solutions that restore your pond&apos;s natural beauty.
         </p>
 
         <div className="info-box">
@@ -120,7 +120,7 @@ export default function PondCleaningsPage() {
             <h3>Plant Trimming</h3>
             <p>
               Professional trimming and maintenance of aquatic plants. We remove dead or overgrown 
-              vegetation while preserving healthy plants and maintaining the pond's natural balance.
+              vegetation while preserving healthy plants and maintaining the pond&apos;s natural balance.
             </p>
           </div>
         </div>
@@ -133,8 +133,8 @@ export default function PondCleaningsPage() {
             <div className="step-number">1</div>
             <h3>Initial Assessment</h3>
             <p>
-              We evaluate your pond's condition, identify cleaning needs, and develop a customized 
-              cleaning plan. We'll assess water quality, equipment condition, and overall pond health.
+              We evaluate your pond&apos;s condition, identify cleaning needs, and develop a customized 
+              cleaning plan. We&apos;ll assess water quality, equipment condition, and overall pond health.
             </p>
           </div>
 
@@ -319,7 +319,7 @@ export default function PondCleaningsPage() {
               <i className="fas fa-eye"></i>
             </div>
             <h4>Improved Water Clarity</h4>
-            <p>Remove debris and algae for crystal clear water that showcases your pond's beauty</p>
+            <p>Remove debris and algae for crystal clear water that showcases your pond&apos;s beauty</p>
           </div>
 
           <div className="benefit-item">
@@ -359,7 +359,7 @@ export default function PondCleaningsPage() {
               <i className="fas fa-heart"></i>
             </div>
             <h4>Peace of Mind</h4>
-            <p>Enjoy your pond knowing it's properly maintained and healthy</p>
+            <p>Enjoy your pond knowing it&apos;s properly maintained and healthy</p>
           </div>
         </div>
       </div>
@@ -397,8 +397,8 @@ export default function PondCleaningsPage() {
       <div className="content-section">
         <h2>Need Pond Cleaning?</h2>
         <p>
-          Don't let your pond lose its beauty and health. Contact us today for professional cleaning 
-          services that will restore your pond's natural beauty and ensure optimal water quality.
+          Don&apos;t let your pond lose its beauty and health. Contact us today for professional cleaning 
+          services that will restore your pond&apos;s natural beauty and ensure optimal water quality.
         </p>
         
         <div className="cta-actions">

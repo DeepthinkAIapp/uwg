@@ -1,5 +1,5 @@
 'use client';
-import Image from 'next/image';
+import Link from 'next/link';
 
 export default function FAQPage() {
   return (
@@ -20,7 +20,7 @@ export default function FAQPage() {
             <div className="content-primary">
               <div className="page-content">
                 <p>
-                  We''t find the answer you''t hesitate to contact us directly.
+                  We&apos;ve compiled answers to the most frequently asked questions about pond care, maintenance, and our services. If you don&apos;t find the answer you&apos;re looking for, please don&apos;t hesitate to contact us directly.
                 </p>
 
                 <div className="faq-categories">
@@ -73,7 +73,14 @@ export default function FAQPage() {
                   <div className="faq-item">
                     <h3>Do I need to feed my fish in winter?</h3>
                     <p>
-                      No, you should not feed fish when water temperature is below 50°F. Fish become dormant in cold water and don''s climate, ponds should be at least 2-3 feet deep in the valley and 3-4 feet deep in higher elevations. This depth provides protection from winter freezing and summer heat. Deeper ponds (4-6 feet) offer even better protection and stability.
+                      No, you should not feed fish when water temperature is below 50°F. Fish become dormant in cold water and don&apos;t need food. Start feeding again when water warms above 50°F, beginning with wheat germ food and gradually switching to regular food.
+                    </p>
+                  </div>
+
+                  <div className="faq-item">
+                    <h3>How deep should my pond be for fish?</h3>
+                    <p>
+                      For Utah&apos;s climate, ponds should be at least 2-3 feet deep in the valley and 3-4 feet deep in higher elevations. This depth provides protection from winter freezing and summer heat. Deeper ponds (4-6 feet) offer even better protection and stability.
                     </p>
                   </div>
 
@@ -142,7 +149,21 @@ export default function FAQPage() {
                   <div className="faq-item">
                     <h3>What size pump do I need?</h3>
                     <p>
-                      Pump size depends on pond volume and desired flow rate. As a general rule, circulate the entire pond volume every 1-2 hours. For a 1,000-gallon pond, you''t always necessary. Well-balanced ponds with adequate plants often don&apos;t need UV. We can assess your specific situation and recommend whether UV would benefit your pond.
+                      Pump size depends on pond volume and desired flow rate. As a general rule, circulate the entire pond volume every 1-2 hours. For a 1,000-gallon pond, you&apos;d need a pump rated for 500-1,000 gallons per hour. We can calculate the exact size for your specific setup.
+                    </p>
+                  </div>
+
+                  <div className="faq-item">
+                    <h3>How often should I clean my filter?</h3>
+                    <p>
+                      Mechanical filters should be cleaned weekly during the growing season, while biological media should be rinsed monthly. Never use tap water on biological media as it kills beneficial bacteria. We offer filter maintenance as part of our service plans.
+                    </p>
+                  </div>
+
+                  <div className="faq-item">
+                    <h3>Do I need a UV clarifier?</h3>
+                    <p>
+                      UV clarifiers help control green water algae but aren&apos;t always necessary. Well-balanced ponds with adequate plants often don&apos;t need UV. We can assess your specific situation and recommend whether UV would benefit your pond.
                     </p>
                   </div>
 
@@ -202,7 +223,7 @@ export default function FAQPage() {
                 <div className="cta-box">
                   <h3>Still Have Questions?</h3>
                   <p>
-                    If you didn''re looking for, we&apos;re here to help! Our experienced team can answer any questions about pond care, maintenance, or our services.
+                    If you didn&apos;t find the answer you&apos;re looking for, we&apos;re here to help! Our experienced team can answer any questions about pond care, maintenance, or our services.
                   </p>
                   <div className="cta-actions">
                     <Link href="/contact" className="cta-button primary">
@@ -353,328 +374,7 @@ export default function FAQPage() {
         </div>
       </section>
 
-      <style jsx>{`
-        .faq-page {
-          background: #fff;
-        }
-
-        .page-header {
-          background: linear-gradient(135deg, #dc2626 0%, #ef4444 100%);
-          color: white;
-          padding: 60px 0;
-          text-align: center;
-        }
-
-        .entry-title {
-          font-size: 3rem;
-          font-weight: 700;
-          margin: 0 0 10px 0;
-          color: white;
-        }
-
-        .entry-subtitle {
-          font-size: 1.2rem;
-          margin: 0;
-          opacity: 0.9;
-        }
-
-        .main-content {
-          padding: 60px 0;
-        }
-
-        .content-wrapper {
-          display: grid;
-          grid-template-columns: 2fr 1fr;
-          gap: 40px;
-          align-items: start;
-        }
-
-        .content-primary {
-          background: white;
-          border-radius: 8px;
-          padding: 40px;
-          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .page-content {
-          line-height: 1.8;
-        }
-
-        .page-content p {
-          margin-bottom: 20px;
-          color: #374151;
-        }
-
-        .faq-categories h2 {
-          color: #dc2626;
-          font-size: 2rem;
-          margin: 40px 0 20px 0;
-          font-weight: 600;
-          border-bottom: 2px solid #fecaca;
-          padding-bottom: 10px;
-        }
-
-        .faq-item {
-          margin-bottom: 30px;
-          padding: 20px;
-          background: #fef2f2;
-          border-radius: 8px;
-          border-left: 4px solid #dc2626;
-        }
-
-        .faq-item h3 {
-          color: #dc2626;
-          font-size: 1.3rem;
-          margin: 0 0 15px 0;
-          font-weight: 600;
-        }
-
-        .faq-item p {
-          margin: 0;
-          color: #374151;
-        }
-
-        .cta-box {
-          background: linear-gradient(135deg, #fef2f2 0%, #fecaca 100%);
-          border: 2px solid #dc2626;
-          border-radius: 12px;
-          padding: 30px;
-          margin: 40px 0;
-          text-align: center;
-        }
-
-        .cta-box h3 {
-          color: #dc2626;
-          margin: 0 0 15px 0;
-          font-size: 1.5rem;
-        }
-
-        .cta-box p {
-          margin-bottom: 20px;
-          color: #374151;
-        }
-
-        .cta-actions {
-          display: flex;
-          gap: 15px;
-          justify-content: center;
-          flex-wrap: wrap;
-        }
-
-        .content-sidebar {
-          display: flex;
-          flex-direction: column;
-          gap: 30px;
-        }
-
-        .sidebar-widget {
-          background: white;
-          border-radius: 8px;
-          padding: 25px;
-          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .widget-title {
-          color: #dc2626;
-          font-size: 1.3rem;
-          margin: 0 0 20px 0;
-          display: flex;
-          align-items: center;
-          gap: 10px;
-        }
-
-        .widget-title i {
-          color: #ef4444;
-        }
-
-        .contact-info {
-          display: flex;
-          flex-direction: column;
-          gap: 15px;
-        }
-
-        .contact-item {
-          display: flex;
-          align-items: flex-start;
-          gap: 12px;
-        }
-
-        .contact-item i {
-          color: #ef4444;
-          margin-top: 3px;
-          min-width: 16px;
-        }
-
-        .contact-item strong {
-          color: #dc2626;
-          display: block;
-          margin-bottom: 2px;
-        }
-
-        .contact-item a {
-          color: #ef4444;
-          text-decoration: none;
-        }
-
-        .contact-item a:hover {
-          text-decoration: underline;
-        }
-
-        .contact-button {
-          display: inline-flex;
-          align-items: center;
-          gap: 8px;
-          background: #ef4444;
-          color: white;
-          padding: 12px 24px;
-          border-radius: 25px;
-          text-decoration: none;
-          font-weight: 600;
-          margin-top: 20px;
-          transition: background-color 0.3s;
-        }
-
-        .contact-button:hover {
-          background: #dc2626;
-          text-decoration: none;
-        }
-
-        .services-list,
-        .resources-list {
-          list-style: none;
-          padding: 0;
-          margin: 0;
-        }
-
-        .services-list li,
-        .resources-list li {
-          margin-bottom: 10px;
-        }
-
-        .services-list a,
-        .resources-list a {
-          display: flex;
-          align-items: center;
-          gap: 10px;
-          color: #374151;
-          text-decoration: none;
-          padding: 8px 0;
-          transition: color 0.3s;
-        }
-
-        .services-list a:hover,
-        .resources-list a:hover {
-          color: #ef4444;
-        }
-
-        .services-list i,
-        .resources-list i {
-          color: #ef4444;
-          min-width: 16px;
-        }
-
-        .cta-section {
-          background: linear-gradient(135deg, #dc2626 0%, #ef4444 100%);
-          color: white;
-          padding: 60px 0;
-          text-align: center;
-        }
-
-        .cta-title {
-          font-size: 2.5rem;
-          font-weight: 700;
-          margin: 0 0 15px 0;
-          color: white;
-        }
-
-        .cta-description {
-          font-size: 1.1rem;
-          margin: 0 0 30px 0;
-          opacity: 0.9;
-          max-width: 600px;
-          margin-left: auto;
-          margin-right: auto;
-        }
-
-        .cta-actions {
-          display: flex;
-          gap: 20px;
-          justify-content: center;
-          flex-wrap: wrap;
-        }
-
-        .cta-button {
-          display: inline-flex;
-          align-items: center;
-          gap: 8px;
-          padding: 15px 30px;
-          border-radius: 25px;
-          text-decoration: none;
-          font-weight: 600;
-          transition: all 0.3s;
-        }
-
-        .cta-button.primary {
-          background: #059669;
-          color: white;
-        }
-
-        .cta-button.primary:hover {
-          background: #047857;
-          transform: translateY(-2px);
-        }
-
-        .cta-button.secondary {
-          background: transparent;
-          color: white;
-          border: 2px solid white;
-        }
-
-        .cta-button.secondary:hover {
-          background: white;
-          color: #dc2626;
-          transform: translateY(-2px);
-        }
-
-        .container {
-          max-width: 1200px;
-          margin: 0 auto;
-          padding: 0 20px;
-        }
-
-        @media (max-width: 768px) {
-          .content-wrapper {
-            grid-template-columns: 1fr;
-            gap: 30px;
-          }
-
-          .entry-title {
-            font-size: 2rem;
-          }
-
-          .cta-title {
-            font-size: 2rem;
-          }
-
-          .cta-actions {
-            flex-direction: column;
-            align-items: center;
-          }
-
-          .cta-box .cta-actions {
-            flex-direction: column;
-            align-items: center;
-          }
-
-          .faq-categories h2 {
-            font-size: 1.5rem;
-          }
-
-          .faq-item h3 {
-            font-size: 1.1rem;
-          }
-        }
-      `}</style>
+      
     </div>
   );
 }

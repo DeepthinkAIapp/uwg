@@ -274,7 +274,7 @@ export default function PondWaterLossPage() {
               <i className="fas fa-exclamation-circle"></i>
             </div>
             <h4>Sudden Changes</h4>
-            <p>Rapid water level drops that don't correlate with weather</p>
+            <p>Rapid water level drops that don&apos;t correlate with weather</p>
           </div>
 
           <div className="warning-item">
@@ -314,7 +314,7 @@ export default function PondWaterLossPage() {
       <div className="content-section">
         <h2>Our Leak Detection and Repair Services</h2>
         <p>
-          If you're experiencing water loss issues, our professional team can help diagnose and 
+          If you&apos;re experiencing water loss issues, our professional team can help diagnose and 
           repair the problem quickly and effectively.
         </p>
 
@@ -380,7 +380,7 @@ export default function PondWaterLossPage() {
       <div className="content-section">
         <h2>Need Help with Water Loss?</h2>
         <p>
-          Don't let water loss compromise your pond's health and beauty. Contact us today for 
+          Don&apos;t let water loss compromise your pond&apos;s health and beauty. Contact us today for 
           professional diagnosis and repair services.
         </p>
         

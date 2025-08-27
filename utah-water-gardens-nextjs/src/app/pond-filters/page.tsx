@@ -1,4 +1,4 @@
-﻿import { PageTemplate } from '@/components/layout/PageTemplate';
+import { PageTemplate } from '@/components/layout/PageTemplate';
 import Link from 'next/link';
 
 export default function PondFiltersPage() {
@@ -41,7 +41,7 @@ export default function PondFiltersPage() {
           filtration systems remove debris, balance water chemistry, and create the optimal environment 
           for fish and aquatic plants. Whether you need a new filter system, upgrades to existing 
           equipment, or maintenance services, our experienced team provides comprehensive filtration 
-          solutions tailored to your pond's specific needs.
+          solutions tailored to your pond&apos;s specific needs.
         </p>
 
         <div className="info-box">
@@ -65,7 +65,7 @@ export default function PondFiltersPage() {
             <h3>Filter System Design</h3>
             <p>
               Custom filter system design based on your pond size, fish population, and water volume. 
-              We'll recommend the perfect combination of mechanical, biological, and UV filtration for 
+              We&apos;ll recommend the perfect combination of mechanical, biological, and UV filtration for 
               optimal water quality.
             </p>
           </div>
@@ -89,7 +89,7 @@ export default function PondFiltersPage() {
             <h3>Filter Maintenance</h3>
             <p>
               Regular filter maintenance including cleaning, media replacement, and system optimization. 
-              We'll create a maintenance schedule tailored to your specific filter system and pond conditions.
+              We&apos;ll create a maintenance schedule tailored to your specific filter system and pond conditions.
             </p>
           </div>
 
@@ -111,7 +111,7 @@ export default function PondFiltersPage() {
             <h3>System Upgrades</h3>
             <p>
               Upgrade your existing filter system to improve performance, reduce maintenance, and enhance 
-              water quality. We'll recommend upgrades that work with your current setup or suggest complete 
+              water quality. We&apos;ll recommend upgrades that work with your current setup or suggest complete 
               system replacements.
             </p>
           </div>
@@ -123,7 +123,7 @@ export default function PondFiltersPage() {
             <h3>Water Quality Testing</h3>
             <p>
               Comprehensive water quality testing to ensure your filter system is working properly. 
-              We'll test pH, ammonia, nitrites, nitrates, and other parameters to maintain optimal conditions.
+              We&apos;ll test pH, ammonia, nitrites, nitrates, and other parameters to maintain optimal conditions.
             </p>
           </div>
         </div>
@@ -406,7 +406,7 @@ export default function PondFiltersPage() {
       <div className="content-section">
         <h2>Need Filter Service?</h2>
         <p>
-          Don't let poor filtration compromise your pond's health and beauty. Contact us today for 
+          Don&apos;t let poor filtration compromise your pond&apos;s health and beauty. Contact us today for 
           professional filter installation, maintenance, or repair services.
         </p>
         

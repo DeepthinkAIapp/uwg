@@ -1,4 +1,4 @@
-﻿import { PageTemplate } from '@/components/layout/PageTemplate';
+import { PageTemplate } from '@/components/layout/PageTemplate';
 import Link from 'next/link';
 
 export default function PondMaintenancePage() {
@@ -260,7 +260,7 @@ export default function PondMaintenancePage() {
       <div className="content-section">
         <h2>Ready to Get Started?</h2>
         <p>
-          Don't wait until your pond has problems. Regular maintenance is the key to a healthy, 
+          Don&apos;t wait until your pond has problems. Regular maintenance is the key to a healthy, 
           beautiful pond that you can enjoy year-round. Contact us today to discuss your maintenance 
           needs and get started with a customized care program.
         </p>

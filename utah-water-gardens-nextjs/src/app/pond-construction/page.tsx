@@ -1,4 +1,4 @@
-﻿import { PageTemplate } from '@/components/layout/PageTemplate';
+import { PageTemplate } from '@/components/layout/PageTemplate';
 import Link from 'next/link';
 
 export default function PondConstructionPage() {
@@ -39,7 +39,7 @@ export default function PondConstructionPage() {
         <p>
           Transform your outdoor space with a custom water feature designed and built by our experienced 
           team. From intimate garden ponds to grand koi ponds with waterfalls, we create beautiful, 
-          functional water features that enhance your property's beauty and value. Our construction 
+          functional water features that enhance your property&apos;s beauty and value. Our construction 
           process ensures your pond is built to last, with proper engineering, quality materials, and 
           attention to every detail.
         </p>
@@ -64,7 +64,7 @@ export default function PondConstructionPage() {
             </div>
             <h3>Custom Design</h3>
             <p>
-              Personalized pond design based on your space, style preferences, and budget. We'll create 
+              Personalized pond design based on your space, style preferences, and budget. We&apos;ll create 
               detailed plans including dimensions, materials, and features that perfectly suit your needs.
             </p>
           </div>
@@ -203,7 +203,7 @@ export default function PondConstructionPage() {
             <h3>Initial Consultation</h3>
             <p>
               We visit your site to assess conditions, discuss your vision, and provide initial 
-              recommendations. We'll evaluate soil, drainage, water availability, and access.
+              recommendations. We&apos;ll evaluate soil, drainage, water availability, and access.
             </p>
           </div>
 
@@ -212,7 +212,7 @@ export default function PondConstructionPage() {
             <h3>Design & Planning</h3>
             <p>
               We create detailed design plans including dimensions, materials, features, and timeline. 
-              You'll receive a comprehensive proposal with pricing and specifications.
+              You&apos;ll receive a comprehensive proposal with pricing and specifications.
             </p>
           </div>
 
@@ -220,7 +220,7 @@ export default function PondConstructionPage() {
             <div className="step-number">3</div>
             <h3>Permits & Preparation</h3>
             <p>
-              We handle all necessary permits and coordinate with local authorities. We'll prepare 
+              We handle all necessary permits and coordinate with local authorities. We&apos;ll prepare 
               the site and schedule construction to minimize disruption to your property.
             </p>
           </div>
@@ -438,7 +438,7 @@ export default function PondConstructionPage() {
       <div className="content-section">
         <h2>Ready to Build Your Dream Pond?</h2>
         <p>
-          Don't wait to transform your outdoor space. Contact us today for a free consultation and 
+          Don&apos;t wait to transform your outdoor space. Contact us today for a free consultation and 
           let us help you create the water feature of your dreams.
         </p>
         

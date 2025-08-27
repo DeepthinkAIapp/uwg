@@ -1,6 +1,20 @@
 'use client';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import  from ''scroll''scroll&apos;, handleScroll);
+import Image from 'next/image';
+
+export function Header() {
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 10);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   const toggleMobileMenu = () => {
@@ -8,7 +22,47 @@ import  from ''scroll''scroll&apos;, handleScroll);
   };
 
   return (
-    <header className={`site-header ${isMounted && isScrolled ? '' : ''mobile-open'''}`} id="main-navigation">
+    <header className={`site-header ${isMounted && isScrolled ? 'scrolled' : ''}`} id="site-header">
+      {/* Top Contact Bar */}
+      <div className="header-top-bar">
+        <div className="container">
+          <div className="contact-info">
+            <a href="https://maps.app.goo.gl/RjUYzSwfXJTqpxFH6" target="_blank" className="contact-item">
+              <i className="fas fa-map-marker-alt"></i>
+              <span>5911 S 1300 E, Salt Lake City, Utah, 84121</span>
+            </a>
+            <a href="tel:8015908516" className="contact-item">
+              <i className="fas fa-phone"></i>
+              <span>801-590-8516</span>
+            </a>
+            <a href="mailto:contact@utahwatergardens.com" className="contact-item">
+              <i className="far fa-envelope"></i>
+              <span>contact@utahwatergardens.com</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* Main Header */}
+      <div className="header-main">
+        <div className="container">
+          <div className="header-content">
+            {/* Logo */}
+            <div className="site-logo">
+              <Link href="/">
+                <Image
+                  src="/images/utahWaterGardensLogoHoriz.webp"
+                  alt="Utah Water Gardens logo with stylized text and red and blue water lily"
+                  width={200}
+                  height={60}
+                  className="logo-image"
+                  priority
+                />
+              </Link>
+            </div>
+
+            {/* Navigation */}
+            <nav className={`main-navigation ${isMobileMenuOpen ? 'mobile-open' : ''}`} id="main-navigation">
               <ul className="nav-menu">
                 <li className="menu-item has-dropdown">
                   <Link href="/plants-fish" className="nav-link">Plants & Fish</Link>

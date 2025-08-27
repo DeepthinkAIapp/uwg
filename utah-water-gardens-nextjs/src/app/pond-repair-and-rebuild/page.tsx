@@ -1,4 +1,4 @@
-﻿import { PageTemplate } from '@/components/layout/PageTemplate';
+import { PageTemplate } from '@/components/layout/PageTemplate';
 import Link from 'next/link';
 
 export default function PondRepairAndRebuildPage() {
@@ -37,7 +37,7 @@ export default function PondRepairAndRebuildPage() {
       <div className="content-section">
         <h2>Expert Pond Repair & Rebuild Services</h2>
         <p>
-          Don't let pond damage compromise your water feature's beauty and functionality. Our professional 
+          Don&apos;t let pond damage compromise your water feature&apos;s beauty and functionality. Our professional 
           repair and rebuild services restore damaged ponds to their former glory or create something even 
           better. Whether you need minor repairs or a complete rebuild, our experienced team has the 
           expertise to handle any pond issue. We assess damage, provide detailed solutions, and execute 
@@ -49,7 +49,7 @@ export default function PondRepairAndRebuildPage() {
           <p>
             <strong>Repair:</strong> Minor leaks, equipment issues, small structural problems<br />
             <strong>Rebuild:</strong> Extensive damage, design changes, major structural issues<br />
-            <strong>Assessment:</strong> We'll evaluate your situation and recommend the best approach<br />
+            <strong>Assessment:</strong> We&apos;ll evaluate your situation and recommend the best approach<br />
             <strong>Cost-effectiveness:</strong> Sometimes rebuilding is more economical than extensive repairs
           </p>
         </div>
@@ -183,7 +183,7 @@ export default function PondRepairAndRebuildPage() {
             <h3>Initial Assessment</h3>
             <p>
               We thoroughly inspect your pond to identify all issues and determine the best repair 
-              approach. We'll document damage and provide a detailed repair plan with cost estimates.
+              approach. We&apos;ll document damage and provide a detailed repair plan with cost estimates.
             </p>
           </div>
 
@@ -304,7 +304,7 @@ export default function PondRepairAndRebuildPage() {
             <h3>Seasonal Damage</h3>
             <p>
               <strong>Signs:</strong> Freeze damage, ice-related problems, weather wear<br />
-              <strong>Causes:</strong> Utah's climate, freeze-thaw cycles, weather exposure<br />
+              <strong>Causes:</strong> Utah&apos;s climate, freeze-thaw cycles, weather exposure<br />
               <strong>Solution:</strong> Weather-resistant repairs, improved materials
             </p>
           </div>
@@ -412,7 +412,7 @@ export default function PondRepairAndRebuildPage() {
               <i className="fas fa-heart"></i>
             </div>
             <h4>Peace of Mind</h4>
-            <p>Enjoy your pond knowing it's properly repaired and built to last for years to come</p>
+            <p>Enjoy your pond knowing it&apos;s properly repaired and built to last for years to come</p>
           </div>
         </div>
       </div>
@@ -450,7 +450,7 @@ export default function PondRepairAndRebuildPage() {
       <div className="content-section">
         <h2>Need Pond Repair or Rebuild?</h2>
         <p>
-          Don't let pond problems get worse. Contact us today for a professional assessment and 
+          Don&apos;t let pond problems get worse. Contact us today for a professional assessment and 
           expert repair or rebuild services that will restore your water feature to its full potential.
         </p>
         

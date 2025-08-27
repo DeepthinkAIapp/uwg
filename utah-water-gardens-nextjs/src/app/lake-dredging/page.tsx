@@ -456,7 +456,7 @@ export default function LakeDredgingPage() {
       <div className="content-section">
         <h2>Ready to Restore Your Lake?</h2>
         <p>
-          Don't let sediment buildup compromise your lake's beauty and functionality. Contact us today for 
+          Don&apos;t let sediment buildup compromise your lake&apos;s beauty and functionality. Contact us today for 
           a professional assessment and dredging consultation.
         </p>
         

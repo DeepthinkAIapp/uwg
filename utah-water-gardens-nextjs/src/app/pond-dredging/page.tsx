@@ -432,7 +432,7 @@ export default function PondDredgingPage() {
       <div className="content-section">
         <h2>Ready to Restore Your Pond?</h2>
         <p>
-          Don't let sediment buildup compromise your pond's beauty and health. Contact us today for 
+          Don&apos;t let sediment buildup compromise your pond&apos;s beauty and health. Contact us today for 
           a professional assessment and dredging consultation.
         </p>
         

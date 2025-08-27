@@ -1,4 +1,4 @@
-﻿import { PageTemplate } from '@/components/layout/PageTemplate';
+import { PageTemplate } from '@/components/layout/PageTemplate';
 import Link from 'next/link';
 
 export default function PondConsultationsPage() {
@@ -37,10 +37,10 @@ export default function PondConsultationsPage() {
       <div className="content-section">
         <h2>Expert Pond Consultations</h2>
         <p>
-          Whether you're planning a new water feature or need help with an existing pond, our professional 
+          Whether you&apos;re planning a new water feature or need help with an existing pond, our professional 
           consultations provide the expert guidance you need to make informed decisions. Our experienced 
           team will assess your space, understand your vision, and provide comprehensive recommendations 
-          tailored to your specific needs and budget. From initial concept to final implementation, we're 
+          tailored to your specific needs and budget. From initial concept to final implementation, we&apos;re 
           here to help you create the water feature of your dreams.
         </p>
 
@@ -65,7 +65,7 @@ export default function PondConsultationsPage() {
             <h3>New Pond Planning</h3>
             <p>
               Comprehensive planning for new water features including site selection, design concepts, 
-              material recommendations, and construction planning. We'll help you choose the perfect 
+              material recommendations, and construction planning. We&apos;ll help you choose the perfect 
               location and design for your space.
             </p>
           </div>
@@ -77,7 +77,7 @@ export default function PondConsultationsPage() {
             <h3>Existing Pond Assessment</h3>
             <p>
               Evaluation of existing ponds to identify issues, improvement opportunities, and maintenance 
-              needs. We'll provide recommendations for upgrades, repairs, or enhancements.
+              needs. We&apos;ll provide recommendations for upgrades, repairs, or enhancements.
             </p>
           </div>
 
@@ -99,7 +99,7 @@ export default function PondConsultationsPage() {
             <h3>Equipment Selection</h3>
             <p>
               Expert guidance on pumps, filters, lighting, and other equipment based on your pond size, 
-              fish population, and maintenance preferences. We'll recommend the best options for your needs.
+              fish population, and maintenance preferences. We&apos;ll recommend the best options for your needs.
             </p>
           </div>
 
@@ -109,7 +109,7 @@ export default function PondConsultationsPage() {
             </div>
             <h3>Fish & Plant Planning</h3>
             <p>
-              Recommendations for fish species, aquatic plants, and ecosystem balance. We'll help you 
+              Recommendations for fish species, aquatic plants, and ecosystem balance. We&apos;ll help you 
               create a healthy, thriving environment for your aquatic life.
             </p>
           </div>
@@ -134,7 +134,7 @@ export default function PondConsultationsPage() {
             <div className="step-number">1</div>
             <h3>Initial Contact</h3>
             <p>
-              Contact us to discuss your project and schedule a consultation. We'll gather basic information 
+              Contact us to discuss your project and schedule a consultation. We&apos;ll gather basic information 
               about your space, goals, and timeline to prepare for our visit.
             </p>
           </div>
@@ -143,7 +143,7 @@ export default function PondConsultationsPage() {
             <div className="step-number">2</div>
             <h3>Site Assessment</h3>
             <p>
-              We'll visit your property to assess the site conditions, evaluate soil, drainage, water 
+              We&apos;ll visit your property to assess the site conditions, evaluate soil, drainage, water 
               availability, and discuss your vision in detail.
             </p>
           </div>
@@ -152,7 +152,7 @@ export default function PondConsultationsPage() {
             <div className="step-number">3</div>
             <h3>Design Discussion</h3>
             <p>
-              Based on our assessment, we'll discuss design options, materials, features, and provide 
+              Based on our assessment, we&apos;ll discuss design options, materials, features, and provide 
               recommendations tailored to your space and budget.
             </p>
           </div>
@@ -161,7 +161,7 @@ export default function PondConsultationsPage() {
             <div className="step-number">4</div>
             <h3>Proposal Development</h3>
             <p>
-              We'll develop a detailed proposal including design concepts, material specifications, 
+              We&apos;ll develop a detailed proposal including design concepts, material specifications, 
               timeline, and pricing for your project.
             </p>
           </div>
@@ -170,7 +170,7 @@ export default function PondConsultationsPage() {
             <div className="step-number">5</div>
             <h3>Follow-up Support</h3>
             <p>
-              After the consultation, we're available to answer questions, provide additional information, 
+              After the consultation, we&apos;re available to answer questions, provide additional information, 
               and help you move forward with your project.
             </p>
           </div>
@@ -307,10 +307,10 @@ export default function PondConsultationsPage() {
           <div className="preparation-card">
             <h3>Questions to Consider</h3>
             <ul>
-              <li>What's your primary goal for the water feature?</li>
+              <li>What&apos;s your primary goal for the water feature?</li>
               <li>Do you want fish or just plants?</li>
               <li>How much maintenance are you willing to do?</li>
-              <li>What's your timeline for completion?</li>
+              <li>What&apos;s your timeline for completion?</li>
               <li>Are there any specific features you want?</li>
             </ul>
           </div>
@@ -320,7 +320,7 @@ export default function PondConsultationsPage() {
             <ul>
               <li>Collect photos of water features you like</li>
               <li>Note any specific styles or themes</li>
-              <li>Consider how you'll use the space</li>
+              <li>Consider how you&apos;ll use the space</li>
               <li>Think about seasonal considerations</li>
               <li>Plan for future landscaping changes</li>
             </ul>
@@ -361,7 +361,7 @@ export default function PondConsultationsPage() {
       <div className="content-section">
         <h2>Ready for Your Consultation?</h2>
         <p>
-          Don't start your water feature project without expert guidance. Contact us today to schedule 
+          Don&apos;t start your water feature project without expert guidance. Contact us today to schedule 
           your professional consultation and get started on creating the pond of your dreams.
         </p>
         

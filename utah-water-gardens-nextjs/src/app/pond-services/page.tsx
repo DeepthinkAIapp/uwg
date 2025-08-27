@@ -1,3 +1,5 @@
+import { HeroSlideshow } from '@/components/layout/HeroSlideshow';
+import Link from 'next/link';
 import { PageTemplate } from '@/components/layout/PageTemplate';
 import Image from 'next/image';
 
