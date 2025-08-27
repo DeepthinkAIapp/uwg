@@ -1,12 +1,42 @@
 'use client';
 import Link from 'next/link';
-import { HeroSlideshow } from '@/components/layout/HeroSlideshow';
+import Image from 'next/image';
 
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section */}
-      <HeroSlideshow />
+      {/* Hero Video Section */}
+      <section className="hero-video">
+        <div className="video-container">
+          <video 
+            autoPlay 
+            muted 
+            loop 
+            playsInline
+            className="hero-video-element"
+            poster="/images/waterLillies.webp"
+          >
+            <source src="/images/herouwg_prob4.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div className="video-overlay">
+            <div className="hero-content">
+              <h1>Utah Water Gardens</h1>
+              <p>Transform your outdoor space with beautiful custom ponds, waterfalls, and aquatic landscapes. Professional pond services throughout Utah.</p>
+              <div className="hero-buttons">
+                <Link href="/pond-services" className="hero-button primary">
+                  <i className="fas fa-water"></i>
+                  Explore Services
+                </Link>
+                <Link href="/contact" className="hero-button secondary">
+                  <i className="fas fa-phone"></i>
+                  Get Free Quote
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       
       {/* Main Content */}
       <main>
