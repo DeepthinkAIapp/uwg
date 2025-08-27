@@ -6,12 +6,14 @@ A professional static website for Utah Water Gardens, featuring comprehensive po
 - **Production**: https://utahwatergardens.com
 - **Development**: http://localhost:8000
 
+cd utah-water-gardens-nextjs; npm run dev
+
 ## 🚀 Quick Start
 
 ### Local Development
 ```bash
 # Start local server
-python -m http.server 8000
+d
 
 # Or using npm
 npm run dev
