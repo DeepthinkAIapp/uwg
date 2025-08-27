@@ -1,6 +1,7 @@
 {
   "version": 2,
   "name": "utah-water-gardens",
+  "rootDirectory": "utah-water-gardens-nextjs",
   "buildCommand": "npm run build",
   "outputDirectory": ".next",
   "framework": "nextjs",
