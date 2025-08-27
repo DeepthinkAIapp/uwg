@@ -101,4 +101,5 @@ Contact us today to learn more about our ${title.toLowerCase()} services!`
   createPage(pageData);
 }
 
-export { createPage, PageData };
+export { createPage };
+export type { PageData };
