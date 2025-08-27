@@ -8,7 +8,6 @@ const nextConfig: NextConfig = {
   experimental: {
     forceSwcTransforms: true,
   },
-  swcMinify: true,
   reactStrictMode: true,
   eslint: {
     ignoreDuringBuilds: true,

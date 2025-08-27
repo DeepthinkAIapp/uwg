@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { getPageBySlug, getAllPages } from '@/lib/content';
 
 interface ServicePageProps {
-  params: { service: string };
+  params: Promise<{ service: string }>;
 }
 
 export async function generateStaticParams() {
@@ -18,7 +18,8 @@ export async function generateStaticParams() {
 }
 
 export default async function ServicePage({ params }: ServicePageProps) {
-  const page = getPageBySlug(params.service);
+  const { service } = await params;
+  const page = getPageBySlug(service);
   
   if (!page || page.category !== 'pond-services') {
     notFound();
