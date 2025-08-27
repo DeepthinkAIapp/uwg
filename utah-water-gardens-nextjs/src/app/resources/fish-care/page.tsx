@@ -1,5 +1,4 @@
 'use client';
-import Link from 'next/link';
 import Image from 'next/image';
 
 export default function FishCarePage() {
@@ -21,26 +20,7 @@ export default function FishCarePage() {
             <div className="content-primary">
               <div className="page-content">
                 <p>
-                  Fish are the heart of any pond ecosystem, providing movement, color, and life to your water garden. Proper fish care ensures they remain healthy, active, and beautiful for years to come. This comprehensive guide covers everything you need to know about caring for pond fish in Utah&apos;s climate.
-                </p>
-
-                <h2>Popular Pond Fish Species</h2>
-
-                <h3>Koi (Cyprinus carpio)</h3>
-                <p>
-                  Koi are the most popular pond fish, known for their beautiful colors and graceful swimming. They can grow quite large and live for many years with proper care.
-                </p>
-                <ul>
-                  <li><strong>Size:</strong> 12-36 inches when mature</li>
-                  <li><strong>Lifespan:</strong> 20-30 years with proper care</li>
-                  <li><strong>Temperature:</strong> 59-77°F (15-25°C)</li>
-                  <li><strong>Diet:</strong> Omnivorous - pellets, vegetables, insects</li>
-                  <li><strong>Social:</strong> Peaceful, can be kept in groups</li>
-                </ul>
-
-                <h3>Goldfish Varieties</h3>
-                <p>
-                  Goldfish come in many varieties, from simple comets to fancy orandas. They&apos;re hardy and perfect for beginners.
+                  Fish are the heart of any pond ecosystem, providing movement, color, and life to your water garden. Proper fish care ensures they remain healthy, active, and beautiful for years to come. This comprehensive guide covers everything you need to know about caring for pond fish in Utah''re hardy and perfect for beginners.
                 </p>
                 <ul>
                   <li><strong>Comet Goldfish:</strong> Fast swimmers, excellent for large ponds</li>

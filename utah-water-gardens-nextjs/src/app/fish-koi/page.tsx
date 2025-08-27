@@ -1,5 +1,4 @@
-﻿'use client';
-import Link from 'next/link';
+'use client';
 import Image from 'next/image';
 
 export default function FishKoiPage() {
@@ -62,32 +61,32 @@ export default function FishKoiPage() {
             <h2 className="section-heading">Types of Fish We Offer</h2>
             <div className="fish-grid">
               <div className="fish-card">
-                <div className="fish-icon">🐟</div>
+                <div className="fish-icon">??</div>
                 <h3>Comets</h3>
                 <p>Beautiful, hardy fish with long flowing tails perfect for ponds.</p>
               </div>
               <div className="fish-card">
-                <div className="fish-icon">🐠</div>
+                <div className="fish-icon">??</div>
                 <h3>Sarasa</h3>
                 <p>Colorful red and white fish that add vibrant beauty to your pond.</p>
               </div>
               <div className="fish-card">
-                <div className="fish-icon">🐡</div>
+                <div className="fish-icon">??</div>
                 <h3>Shubunkin</h3>
                 <p>Calico-patterned fish with stunning multi-colored scales.</p>
               </div>
               <div className="fish-card">
-                <div className="fish-icon">🐟</div>
+                <div className="fish-icon">??</div>
                 <h3>Lemon Metallic</h3>
                 <p>Bright yellow fish that shine beautifully in sunlight.</p>
               </div>
               <div className="fish-card">
-                <div className="fish-icon">🐠</div>
+                <div className="fish-icon">??</div>
                 <h3>Golden Orfes</h3>
                 <p>Active, schooling fish that create dynamic movement in ponds.</p>
               </div>
               <div className="fish-card">
-                <div className="fish-icon">🐡</div>
+                <div className="fish-icon">??</div>
                 <h3>Koi</h3>
                 <p>Majestic, long-lived fish known for their beauty and personality.</p>
               </div>

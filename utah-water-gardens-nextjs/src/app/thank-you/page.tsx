@@ -1,5 +1,5 @@
-﻿import Link from 'next/link';
-import Image from 'next/image';
+﻿'use client';
+import Link from 'next/link';
 
 export default function ThankYouPage() {
   return (
@@ -8,7 +8,7 @@ export default function ThankYouPage() {
       <section className="page-header">
         <div className="container">
           <h1 className="entry-title">Thank You!</h1>
-          <p className="entry-subtitle">We've Received Your Message</p>
+          <p className="entry-subtitle">We&apos;ve Received Your Message</p>
         </div>
       </section>
 
@@ -22,7 +22,7 @@ export default function ThankYouPage() {
             
             <h2>Message Received Successfully</h2>
             <p>
-              Thank you for contacting Utah Water Gardens! We've received your message and will 
+              Thank you for contacting Utah Water Gardens! We&apos;ve received your message and will 
               get back to you within 24 hours. Our team is excited to help you with your water 
               garden project.
             </p>
@@ -38,17 +38,17 @@ export default function ThankYouPage() {
                 <div className="step-item">
                   <div className="step-number">2</div>
                   <h4>Contact You</h4>
-                  <p>We'll reach out within 24 hours to discuss your project and answer any questions.</p>
+                  <p>We&apos;ll reach out within 24 hours to discuss your project and answer any questions.</p>
                 </div>
                 <div className="step-item">
                   <div className="step-number">3</div>
                   <h4>Schedule Consultation</h4>
-                  <p>If needed, we'll schedule a consultation to assess your site and provide detailed recommendations.</p>
+                  <p>If needed, we&apos;ll schedule a consultation to assess your site and provide detailed recommendations.</p>
                 </div>
                 <div className="step-item">
                   <div className="step-number">4</div>
                   <h4>Get Started</h4>
-                  <p>Once we have all the details, we'll provide a comprehensive quote and timeline for your project.</p>
+                  <p>Once we have all the details, we&apos;ll provide a comprehensive quote and timeline for your project.</p>
                 </div>
               </div>
             </div>
@@ -112,7 +112,7 @@ export default function ThankYouPage() {
             <div className="container">
               <div className="cta-content">
                 <h2>Ready to Get Started?</h2>
-                <p>Don't wait for our response - explore our services and start planning your dream water garden today.</p>
+                <p>Don&apos;t wait for our response - explore our services and start planning your dream water garden today.</p>
                 <div className="cta-buttons">
                   <Link href="/contact" className="cta-button primary">
                     <i className="fas fa-phone"></i>

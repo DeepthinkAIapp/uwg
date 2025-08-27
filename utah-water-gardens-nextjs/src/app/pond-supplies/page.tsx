@@ -1,4 +1,3 @@
-﻿import Link from 'next/link';
 import Image from 'next/image';
 
 export default function PondSuppliesPage() {
@@ -23,21 +22,21 @@ export default function PondSuppliesPage() {
               we have everything you need to maintain your pond.
             </p>
             
-            <div className="feature-list" style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 'var(--spacing-md)', margin: 'var(--spacing-lg) 0' }}>
-              <div className="feature-item" style={{ display: 'flex', alignItems: 'center', gap: 'var(--spacing-sm)' }}>
-                <span className="feature-icon">🔧</span>
+            <div className="feature-list" style={{ display: '', gridTemplateColumns: '', gap: '', margin: '' }}>
+              <div className="feature-item" style={{ display: '', alignItems: '', gap: '' }}>
+                <span className="feature-icon">??</span>
                 <span className="feature-text">Pumps & Filters</span>
               </div>
-              <div className="feature-item" style={{ display: 'flex', alignItems: 'center', gap: 'var(--spacing-sm)' }}>
-                <span className="feature-icon">🧪</span>
+              <div className="feature-item" style={{ display: '', alignItems: '', gap: '' }}>
+                <span className="feature-icon">??</span>
                 <span className="feature-text">Water Treatments</span>
               </div>
-              <div className="feature-item" style={{ display: 'flex', alignItems: 'center', gap: 'var(--spacing-sm)' }}>
-                <span className="feature-icon">🌿</span>
+              <div className="feature-item" style={{ display: '', alignItems: '', gap: '' }}>
+                <span className="feature-icon">??</span>
                 <span className="feature-text">Plant Supplies</span>
               </div>
-              <div className="feature-item" style={{ display: 'flex', alignItems: 'center', gap: 'var(--spacing-sm)' }}>
-                <span className="feature-icon">🐟</span>
+              <div className="feature-item" style={{ display: '', alignItems: '', gap: '' }}>
+                <span className="feature-icon">??</span>
                 <span className="feature-text">Fish Food & Care</span>
               </div>
             </div>

@@ -1,6 +1,6 @@
-﻿'use client';
-import Link from 'next/link';
+'use client';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function AquaticPlantsPage() {
   return (
@@ -61,23 +61,23 @@ export default function AquaticPlantsPage() {
               
               <div className="feature-list">
                 <div className="feature-item">
-                  <span className="feature-icon">🌿</span>
+                  <span className="feature-icon">??</span>
                   <span className="feature-text">Bog Plants</span>
                 </div>
                 <div className="feature-item">
-                  <span className="feature-icon">🌱</span>
+                  <span className="feature-icon">??</span>
                   <span className="feature-text">Marginal Plants</span>
                 </div>
                 <div className="feature-item">
-                  <span className="feature-icon">🌺</span>
+                  <span className="feature-icon">??</span>
                   <span className="feature-text">Shallow Water Plants</span>
                 </div>
                 <div className="feature-item">
-                  <span className="feature-icon">🌿</span>
+                  <span className="feature-icon">??</span>
                   <span className="feature-text">Submerged Plants</span>
                 </div>
                 <div className="feature-item">
-                  <span className="feature-icon">🌊</span>
+                  <span className="feature-icon">??</span>
                   <span className="feature-text">Free-Floating Plants</span>
                 </div>
               </div>
@@ -85,7 +85,7 @@ export default function AquaticPlantsPage() {
               <div className="button-wrapper">
                 <Link href="/plants-fish" className="modern-button">
                   <span className="button-text">View All Plants</span>
-                  <span className="button-icon">→</span>
+                  <span className="button-icon">?</span>
                 </Link>
               </div>
             </div>
@@ -101,19 +101,19 @@ export default function AquaticPlantsPage() {
               
               <div className="feature-list">
                 <div className="feature-item">
-                  <span className="feature-icon">🔍</span>
+                  <span className="feature-icon">??</span>
                   <span className="feature-text">Natural Water Filtration</span>
                 </div>
                 <div className="feature-item">
-                  <span className="feature-icon">🐟</span>
+                  <span className="feature-icon">??</span>
                   <span className="feature-text">Fish Protection & Shade</span>
                 </div>
                 <div className="feature-item">
-                  <span className="feature-icon">🦋</span>
+                  <span className="feature-icon">??</span>
                   <span className="feature-text">Wildlife Attraction</span>
                 </div>
                 <div className="feature-item">
-                  <span className="feature-icon">🌿</span>
+                  <span className="feature-icon">??</span>
                   <span className="feature-text">Edible & Medicinal</span>
                 </div>
               </div>
@@ -121,7 +121,7 @@ export default function AquaticPlantsPage() {
               <div className="button-wrapper">
                 <Link href="/pond-maintenance" className="modern-button">
                   <span className="button-text">Learn Maintenance</span>
-                  <span className="button-icon">→</span>
+                  <span className="button-icon">?</span>
                 </Link>
               </div>
             </div>
@@ -145,7 +145,7 @@ export default function AquaticPlantsPage() {
           <div className="container">
             <div className="section-header">
               <h2>Our Plant Collection</h2>
-              <p>Discover our comprehensive selection of aquatic plants, carefully curated for Utah&apos;s unique climate and your pond&apos;s specific needs.</p>
+              <p>Discover our comprehensive selection of aquatic plants, carefully curated for Utah''s specific needs.</p>
             </div>
             
             <div className="plant-categories-grid">
@@ -160,7 +160,7 @@ export default function AquaticPlantsPage() {
                     style={{ objectFit: 'cover' }}
                   />
                   <div className="category-overlay">
-                    <span className="category-icon">🌺</span>
+                    <span className="category-icon">??</span>
                   </div>
                 </div>
                 <div className="category-content">
@@ -172,7 +172,7 @@ export default function AquaticPlantsPage() {
                     <span className="feature-tag">Utah Native</span>
                   </div>
                   <Link href="/plants-fish" className="category-link">
-                    Explore Lilies →
+                    Explore Lilies ?
                   </Link>
                 </div>
               </div>
@@ -188,7 +188,7 @@ export default function AquaticPlantsPage() {
                     style={{ objectFit: 'cover' }}
                   />
                   <div className="category-overlay">
-                    <span className="category-icon">🌸</span>
+                    <span className="category-icon">??</span>
                   </div>
                 </div>
                 <div className="category-content">
@@ -200,7 +200,7 @@ export default function AquaticPlantsPage() {
                     <span className="feature-tag">Edge Plants</span>
                   </div>
                   <Link href="/plants-fish" className="category-link">
-                    Explore Iris →
+                    Explore Iris ?
                   </Link>
                 </div>
               </div>
@@ -216,7 +216,7 @@ export default function AquaticPlantsPage() {
                     style={{ objectFit: 'cover' }}
                   />
                   <div className="category-overlay">
-                    <span className="category-icon">🌾</span>
+                    <span className="category-icon">??</span>
                   </div>
                 </div>
                 <div className="category-content">
@@ -228,7 +228,7 @@ export default function AquaticPlantsPage() {
                     <span className="feature-tag">Texture</span>
                   </div>
                   <Link href="/plants-fish" className="category-link">
-                    Explore Grasses →
+                    Explore Grasses ?
                   </Link>
                 </div>
               </div>
@@ -244,7 +244,7 @@ export default function AquaticPlantsPage() {
                     style={{ objectFit: 'cover' }}
                   />
                   <div className="category-overlay">
-                    <span className="category-icon">🍃</span>
+                    <span className="category-icon">??</span>
                   </div>
                 </div>
                 <div className="category-content">
@@ -256,7 +256,7 @@ export default function AquaticPlantsPage() {
                     <span className="feature-tag">Edge Softening</span>
                   </div>
                   <Link href="/plants-fish" className="category-link">
-                    Explore Marginals →
+                    Explore Marginals ?
                   </Link>
                 </div>
               </div>
@@ -272,7 +272,7 @@ export default function AquaticPlantsPage() {
                     style={{ objectFit: 'cover' }}
                   />
                   <div className="category-overlay">
-                    <span className="category-icon">🌼</span>
+                    <span className="category-icon">??</span>
                   </div>
                 </div>
                 <div className="category-content">
@@ -284,7 +284,7 @@ export default function AquaticPlantsPage() {
                     <span className="feature-tag">Blooming</span>
                   </div>
                   <Link href="/plants-fish" className="category-link">
-                    Explore Flowering →
+                    Explore Flowering ?
                   </Link>
                 </div>
               </div>
@@ -300,7 +300,7 @@ export default function AquaticPlantsPage() {
                     style={{ objectFit: 'cover' }}
                   />
                   <div className="category-overlay">
-                    <span className="category-icon">🌱</span>
+                    <span className="category-icon">??</span>
                   </div>
                 </div>
                 <div className="category-content">
@@ -312,7 +312,7 @@ export default function AquaticPlantsPage() {
                     <span className="feature-tag">Layered Design</span>
                   </div>
                   <Link href="/plants-fish" className="category-link">
-                    Explore Grasses →
+                    Explore Grasses ?
                   </Link>
                 </div>
               </div>
@@ -329,19 +329,19 @@ export default function AquaticPlantsPage() {
               
               <div className="feature-list">
                 <div className="feature-item">
-                  <span className="feature-icon">🦋</span>
+                  <span className="feature-icon">??</span>
                   <span className="feature-text">Attract Hummingbirds</span>
                 </div>
                 <div className="feature-item">
-                  <span className="feature-icon">🦅</span>
+                  <span className="feature-icon">??</span>
                   <span className="feature-text">Butterfly Gardens</span>
                 </div>
                 <div className="feature-item">
-                  <span className="feature-icon">🐝</span>
+                  <span className="feature-icon">??</span>
                   <span className="feature-text">Honeybee Support</span>
                 </div>
                 <div className="feature-item">
-                  <span className="feature-icon">🦎</span>
+                  <span className="feature-icon">??</span>
                   <span className="feature-text">Dragonfly Habitat</span>
                 </div>
               </div>
@@ -349,7 +349,7 @@ export default function AquaticPlantsPage() {
               <div className="button-wrapper">
                 <Link href="/pond-gallery" className="modern-button">
                   <span className="button-text">View Gallery</span>
-                  <span className="button-icon">→</span>
+                  <span className="button-icon">?</span>
                 </Link>
               </div>
             </div>
@@ -495,34 +495,7 @@ export default function AquaticPlantsPage() {
         }
 
         .hero-btn.primary::before {
-          content: '';
-          position: absolute;
-          top: -4px;
-          left: -4px;
-          right: -4px;
-          bottom: -4px;
-          background: rgba(255, 255, 255, 0.15);
-          border-radius: 29px;
-          z-index: -1;
-        }
-
-        .hero-btn.primary:hover {
-          background: var(--primary-red-dark);
-          border-color: var(--primary-red-dark);
-          transform: translateY(-2px);
-        }
-
-        .hero-btn.secondary {
-          background: transparent;
-          color: white;
-          border: 2px solid white;
-          text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-          position: relative;
-        }
-
-        .hero-btn.secondary::before {
-          content: '';
+          content: ''';
           position: absolute;
           top: -4px;
           left: -4px;

@@ -1,5 +1,4 @@
-﻿'use client';
-import Link from 'next/link';
+'use client';
 import Image from 'next/image';
 
 export default function ResourcesPage() {
@@ -164,7 +163,7 @@ export default function ResourcesPage() {
               </div>
               <h2>Need Expert Help?</h2>
               <p>
-                Can&apos;t find what you&apos;re looking for? Our experienced team is here to help with 
+                Can''re looking for? Our experienced team is here to help with 
                 any pond-related questions or issues you may have.
               </p>
               <div className="expert-buttons">

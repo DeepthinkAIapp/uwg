@@ -1,5 +1,5 @@
-﻿import Link from 'next/link';
-import Image from 'next/image';
+﻿'use client';
+import Link from 'next/link';
 
 export default function PrivacyAndLegalInfoPage() {
   return (
@@ -95,7 +95,7 @@ export default function PrivacyAndLegalInfoPage() {
             <div className="policy-section">
               <h3>Acceptance of Terms</h3>
               <p>
-                By accessing and using Utah Water Gardens' services, you accept and agree to be 
+                By accessing and using Utah Water Gardens&apos; services, you accept and agree to be 
                 bound by these terms and conditions. If you do not agree to these terms, please 
                 do not use our services.
               </p>
@@ -141,7 +141,7 @@ export default function PrivacyAndLegalInfoPage() {
             <div className="policy-section">
               <h3>Limitation of Liability</h3>
               <p>
-                Utah Water Gardens' liability is limited to the amount paid for services. We are 
+                Utah Water Gardens&apos; liability is limited to the amount paid for services. We are 
                 not liable for indirect, incidental, or consequential damages.
               </p>
             </div>
@@ -154,7 +154,7 @@ export default function PrivacyAndLegalInfoPage() {
             <div className="policy-section">
               <h3>Website Information</h3>
               <p>
-                The information on this website is provided "as is" without warranties of any 
+                The information on this website is provided &quot;as is&quot; without warranties of any 
                 kind. While we strive to keep information accurate and up-to-date, we make no 
                 representations about the accuracy, completeness, or reliability of any information.
               </p>
@@ -215,7 +215,7 @@ export default function PrivacyAndLegalInfoPage() {
             <div className="container">
               <div className="cta-content">
                 <h2>Questions About Our Policies?</h2>
-                <p>We're here to help clarify any questions you may have about our privacy policy, terms of service, or legal information.</p>
+                <p>We&apos;re here to help clarify any questions you may have about our privacy policy, terms of service, or legal information.</p>
                 <div className="cta-buttons">
                   <Link href="/contact" className="cta-button primary">
                     <i className="fas fa-phone"></i>

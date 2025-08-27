@@ -1,6 +1,4 @@
-﻿import { HeroSlideshow } from '@/components/layout/HeroSlideshow';
 import { PageTemplate } from '@/components/layout/PageTemplate';
-import Link from 'next/link';
 import Image from 'next/image';
 
 export default function PondServicesPage() {
@@ -8,7 +6,7 @@ export default function PondServicesPage() {
     <PageTemplate
       showBreadcrumbs={true}
       breadcrumbs={[
-        { label: 'Pond Services', href: '/pond-services' }
+        { label: '', href: '' }
       ]}
       showTestimonials={true}
       showServices={true}

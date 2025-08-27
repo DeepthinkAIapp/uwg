@@ -1,5 +1,4 @@
 'use client';
-import Link from 'next/link';
 import Image from 'next/image';
 
 export default function FAQPage() {
@@ -21,7 +20,7 @@ export default function FAQPage() {
             <div className="content-primary">
               <div className="page-content">
                 <p>
-                  We&apos;ve compiled answers to the most frequently asked questions about pond care, maintenance, and our services. If you don&apos;t find the answer you&apos;re looking for, please don&apos;t hesitate to contact us directly.
+                  We''t find the answer you''t hesitate to contact us directly.
                 </p>
 
                 <div className="faq-categories">
@@ -74,14 +73,7 @@ export default function FAQPage() {
                   <div className="faq-item">
                     <h3>Do I need to feed my fish in winter?</h3>
                     <p>
-                      No, you should not feed fish when water temperature is below 50°F. Fish become dormant in cold water and don&apos;t need food. Start feeding again when water warms above 50°F, beginning with wheat germ food and gradually switching to regular food.
-                    </p>
-                  </div>
-
-                  <div className="faq-item">
-                    <h3>How deep should my pond be for fish?</h3>
-                    <p>
-                      For Utah&apos;s climate, ponds should be at least 2-3 feet deep in the valley and 3-4 feet deep in higher elevations. This depth provides protection from winter freezing and summer heat. Deeper ponds (4-6 feet) offer even better protection and stability.
+                      No, you should not feed fish when water temperature is below 50°F. Fish become dormant in cold water and don''s climate, ponds should be at least 2-3 feet deep in the valley and 3-4 feet deep in higher elevations. This depth provides protection from winter freezing and summer heat. Deeper ponds (4-6 feet) offer even better protection and stability.
                     </p>
                   </div>
 
@@ -150,21 +142,7 @@ export default function FAQPage() {
                   <div className="faq-item">
                     <h3>What size pump do I need?</h3>
                     <p>
-                      Pump size depends on pond volume and desired flow rate. As a general rule, circulate the entire pond volume every 1-2 hours. For a 1,000-gallon pond, you&apos;d need a pump rated for 500-1,000 gallons per hour. We can calculate the exact size for your specific setup.
-                    </p>
-                  </div>
-
-                  <div className="faq-item">
-                    <h3>How often should I clean my filter?</h3>
-                    <p>
-                      Mechanical filters should be cleaned weekly during the growing season, while biological media should be rinsed monthly. Never use tap water on biological media as it kills beneficial bacteria. We offer filter maintenance as part of our service plans.
-                    </p>
-                  </div>
-
-                  <div className="faq-item">
-                    <h3>Do I need a UV clarifier?</h3>
-                    <p>
-                      UV clarifiers help control green water algae but aren&apos;t always necessary. Well-balanced ponds with adequate plants often don&apos;t need UV. We can assess your specific situation and recommend whether UV would benefit your pond.
+                      Pump size depends on pond volume and desired flow rate. As a general rule, circulate the entire pond volume every 1-2 hours. For a 1,000-gallon pond, you''t always necessary. Well-balanced ponds with adequate plants often don&apos;t need UV. We can assess your specific situation and recommend whether UV would benefit your pond.
                     </p>
                   </div>
 
@@ -224,7 +202,7 @@ export default function FAQPage() {
                 <div className="cta-box">
                   <h3>Still Have Questions?</h3>
                   <p>
-                    If you didn&apos;t find the answer you&apos;re looking for, we&apos;re here to help! Our experienced team can answer any questions about pond care, maintenance, or our services.
+                    If you didn''re looking for, we&apos;re here to help! Our experienced team can answer any questions about pond care, maintenance, or our services.
                   </p>
                   <div className="cta-actions">
                     <Link href="/contact" className="cta-button primary">

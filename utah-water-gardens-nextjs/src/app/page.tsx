@@ -1,5 +1,4 @@
 'use client';
-import Image from 'next/image';
 import Link from 'next/link';
 
 export default function HomePage() {
@@ -432,13 +431,7 @@ export default function HomePage() {
             </div>
             <div className="testimonial-item">
               <div className="testimonial-text">
-                They helped me save my koi when my pump failed in freezing weather. I was able to do a quick fix job to keep my fish alive until I can have a professional repair next week. Very grateful for their services and expertise. I&apos;ve also gotten plants from them in the past and they have been consistently awesome.
-              </div>
-              <div className="testimonial-author">Stephanie</div>
-            </div>
-            <div className="testimonial-item">
-              <div className="testimonial-text">
-                I love this place! Very friendly and they&apos;ve got a bunch of great product as well knowledgeable employees. Their new location is really coming along. Highly recommend!
+                They helped me save my koi when my pump failed in freezing weather. I was able to do a quick fix job to keep my fish alive until I can have a professional repair next week. Very grateful for their services and expertise. I''ve got a bunch of great product as well knowledgeable employees. Their new location is really coming along. Highly recommend!
               </div>
               <div className="testimonial-author">Casey</div>
             </div>
@@ -460,7 +453,7 @@ export default function HomePage() {
 
       {/* Schedule Consultation CTA Section */}
       <section className="consultation-cta">
-        <div className="cta-background" style={{ backgroundImage: "url('/images/plants-768x320.webp')" }}>
+        <div className="cta-background" style={{ backgroundImage: "url('')" }}>
           <div className="cta-overlay">
             <div className="cta-content">
               <h2>Schedule a Pond Consultation</h2>
@@ -564,34 +557,7 @@ export default function HomePage() {
         }
 
         .hero-btn.primary::before {
-          content: '';
-          position: absolute;
-          top: -4px;
-          left: -4px;
-          right: -4px;
-          bottom: -4px;
-          background: rgba(255, 255, 255, 0.15);
-          border-radius: 29px;
-          z-index: -1;
-        }
-
-        .hero-btn.primary:hover {
-          background: var(--primary-red-dark);
-          border-color: var(--primary-red-dark);
-          transform: translateY(-2px);
-        }
-
-        .hero-btn.secondary {
-          background: transparent;
-          color: white;
-          border: 2px solid white;
-          text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-          position: relative;
-        }
-
-        .hero-btn.secondary::before {
-          content: '';
+          content: ''';
           position: absolute;
           top: -4px;
           left: -4px;
@@ -663,7 +629,7 @@ export default function HomePage() {
         }
 
         .service-image::before {
-          content: '';
+          content: &apos;';
           position: absolute;
           top: 0;
           left: 0;
@@ -844,7 +810,7 @@ export default function HomePage() {
         }
 
         .showcase-image::before {
-          content: '';
+          content: &apos;';
           position: absolute;
           top: 0;
           left: 0;

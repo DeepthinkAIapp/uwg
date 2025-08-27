@@ -1,5 +1,4 @@
 'use client';
-import Link from 'next/link';
 import Image from 'next/image';
 
 export default function PlantCarePage() {
@@ -39,18 +38,7 @@ export default function PlantCarePage() {
 
                 <h3>Floating Plants</h3>
                 <p>
-                  These plants float on the water&apos;s surface, providing shade and helping to control algae growth by blocking sunlight.
-                </p>
-                <ul>
-                  <li><strong>Water Lettuce (Pistia stratiotes):</strong> Tropical, needs warm water</li>
-                  <li><strong>Water Hyacinth (Eichhornia crassipes):</strong> Beautiful flowers, fast spreader</li>
-                  <li><strong>Duckweed (Lemna minor):</strong> Tiny floating plants, good for small ponds</li>
-                  <li><strong>Frogbit (Limnobium laevigatum):</strong> Heart-shaped leaves, easy care</li>
-                </ul>
-
-                <h3>Marginal Plants</h3>
-                <p>
-                  These plants grow in shallow water or at the pond&apos;s edge, adding height and structure to your water garden.
+                  These plants float on the water''s edge, adding height and structure to your water garden.
                 </p>
                 <ul>
                   <li><strong>Iris (Iris spp.):</strong> Beautiful flowers, various colors</li>

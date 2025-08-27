@@ -1,4 +1,3 @@
-﻿import Link from 'next/link';
 import Image from 'next/image';
 
 export default function CompanyResourcesPage() {
@@ -102,7 +101,7 @@ export default function CompanyResourcesPage() {
             <div className="policies-grid">
               <div className="policy-item">
                 <h3>Service Guarantee</h3>
-                <p>We stand behind all our work with a comprehensive service guarantee. If you're not completely satisfied with our work, we'll make it right.</p>
+                <p>We stand behind all our work with a comprehensive service guarantee. If you''ll make it right.</p>
               </div>
               <div className="policy-item">
                 <h3>Insurance & Licensing</h3>
