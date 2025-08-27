@@ -40,112 +40,191 @@ export default function HomePage() {
       
       {/* Main Content */}
       <main>
-        {/* Services Overview - 3x3 Grid */}
+        {/* Elevating Your Pond Section */}
         <section className="py-12 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="text-center mb-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-3">Our Services</h2>
-              <p className="text-lg text-gray-600">Comprehensive pond and water feature solutions for Utah</p>
+              <h2 className="text-3xl font-bold text-gray-800 mb-3">Elevating Your Pond</h2>
+              <div className="w-24 h-1 bg-red-600 mx-auto"></div>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              <div className="bg-white rounded-lg shadow-md p-5 hover:shadow-lg transition-shadow">
-                <div className="text-3xl text-red-600 mb-3">
-                  <i className="fas fa-water"></i>
-                </div>
-                <h3 className="text-lg font-semibold mb-2">Pond Construction</h3>
-                <p className="text-gray-600 mb-3 text-sm">Custom pond design and construction tailored to your landscape.</p>
-                <Link href="/pond-services" className="text-red-600 hover:text-red-700 font-semibold text-sm">
-                  Learn More →
+            {/* First Row - 3 Columns */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
+              <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                <Link href="/pond-cleanings">
+                  <Image
+                    src="/images/pondConstruction1000x800.webp"
+                    alt="A pond under construction"
+                    width={400}
+                    height={320}
+                    className="w-full h-48 object-cover"
+                  />
                 </Link>
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold mb-3 text-gray-800">Pond Cleanings</h3>
+                  <p className="text-gray-600 mb-4 text-sm">Regular pond cleanings are crucial for maintaining the health & appearance of your water feature</p>
+                  <Link href="/pond-cleanings" className="bg-red-600 text-white px-4 py-2 rounded text-sm font-semibold hover:bg-red-700 transition-colors">
+                    LEARN MORE
+                  </Link>
+                </div>
               </div>
               
-              <div className="bg-white rounded-lg shadow-md p-5 hover:shadow-lg transition-shadow">
-                <div className="text-3xl text-red-600 mb-3">
-                  <i className="fas fa-tools"></i>
-                </div>
-                <h3 className="text-lg font-semibold mb-2">Pond Maintenance</h3>
-                <p className="text-gray-600 mb-3 text-sm">Regular cleaning and care to keep your pond healthy and beautiful.</p>
-                <Link href="/pond-services" className="text-red-600 hover:text-red-700 font-semibold text-sm">
-                  Learn More →
+              <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                <Link href="/pond-and-lake-dredging">
+                  <Image
+                    src="/images/pondDredging.webp"
+                    alt="Two workers dredging sludge and debris from the bottom of a drained pond using hand tools and hoses"
+                    width={400}
+                    height={320}
+                    className="w-full h-48 object-cover"
+                  />
                 </Link>
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold mb-3 text-gray-800">Pond Dredging</h3>
+                  <p className="text-gray-600 mb-4 text-sm">We have the equipment and the scuba divers to dredge out the sediments and materials</p>
+                  <Link href="/pond-and-lake-dredging" className="bg-red-600 text-white px-4 py-2 rounded text-sm font-semibold hover:bg-red-700 transition-colors">
+                    LEARN MORE
+                  </Link>
+                </div>
               </div>
               
-              <div className="bg-white rounded-lg shadow-md p-5 hover:shadow-lg transition-shadow">
-                <div className="text-3xl text-red-600 mb-3">
-                  <i className="fas fa-leaf"></i>
-                </div>
-                <h3 className="text-lg font-semibold mb-2">Plants & Fish</h3>
-                <p className="text-gray-600 mb-3 text-sm">Aquatic plants, koi, and pond fish to enhance your water feature.</p>
-                <Link href="/plants-fish" className="text-red-600 hover:text-red-700 font-semibold text-sm">
-                  Learn More →
+              <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                <Link href="/pond-construction">
+                  <Image
+                    src="/images/pondMaintenance.webp"
+                    alt="Beautiful backyard pond with a stone bridge, clear water, and lush landscaping"
+                    width={400}
+                    height={320}
+                    className="w-full h-48 object-cover"
+                  />
                 </Link>
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold mb-3 text-gray-800">Pond Construction</h3>
+                  <p className="text-gray-600 mb-4 text-sm">We specialize in pond construction and design, helping homeowners to create a custom water feature</p>
+                  <Link href="/pond-construction" className="bg-red-600 text-white px-4 py-2 rounded text-sm font-semibold hover:bg-red-700 transition-colors">
+                    LEARN MORE
+                  </Link>
+                </div>
+              </div>
+            </div>
+            
+            {/* Second Row - 3 Columns */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
+              <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                <Link href="/pond-maintenance">
+                  <Image
+                    src="/images/pondConsultation1000x800.webp"
+                    alt="Natural pond surrounded by fall foliage and bare trees during a pond consultation site visit"
+                    width={400}
+                    height={320}
+                    className="w-full h-48 object-cover"
+                  />
+                </Link>
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold mb-3 text-gray-800">Pond Maintenance</h3>
+                  <p className="text-gray-600 mb-4 text-sm">We offer a wide range of pond maintenance services to ensure that your pond stays in top condition</p>
+                  <Link href="/pond-maintenance" className="bg-red-600 text-white px-4 py-2 rounded text-sm font-semibold hover:bg-red-700 transition-colors">
+                    LEARN MORE
+                  </Link>
+                </div>
               </div>
               
-              <div className="bg-white rounded-lg shadow-md p-5 hover:shadow-lg transition-shadow">
-                <div className="text-3xl text-red-600 mb-3">
-                  <i className="fas fa-broom"></i>
-                </div>
-                <h3 className="text-lg font-semibold mb-2">Pond Cleanings</h3>
-                <p className="text-gray-600 mb-3 text-sm">Professional cleaning services to restore clarity to your pond.</p>
-                <Link href="/pond-cleanings" className="text-red-600 hover:text-red-700 font-semibold text-sm">
-                  Learn More →
+              <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                <Link href="/pond-repair-and-rebuild">
+                  <Image
+                    src="/images/pondConstruction1000x800.webp"
+                    alt="Pond repair and rebuild services"
+                    width={400}
+                    height={320}
+                    className="w-full h-48 object-cover"
+                  />
                 </Link>
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold mb-3 text-gray-800">Pond Repair</h3>
+                  <p className="text-gray-600 mb-4 text-sm">Expert repair and rebuild services for damaged ponds and water features</p>
+                  <Link href="/pond-repair-and-rebuild" className="bg-red-600 text-white px-4 py-2 rounded text-sm font-semibold hover:bg-red-700 transition-colors">
+                    LEARN MORE
+                  </Link>
+                </div>
               </div>
               
-              <div className="bg-white rounded-lg shadow-md p-5 hover:shadow-lg transition-shadow">
-                <div className="text-3xl text-red-600 mb-3">
-                  <i className="fas fa-wrench"></i>
-                </div>
-                <h3 className="text-lg font-semibold mb-2">Pond Repair</h3>
-                <p className="text-gray-600 mb-3 text-sm">Expert repair and rebuild services for damaged ponds.</p>
-                <Link href="/pond-repair-and-rebuild" className="text-red-600 hover:text-red-700 font-semibold text-sm">
-                  Learn More →
+              <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                <Link href="/pond-consultations">
+                  <Image
+                    src="/images/pondConsultation1000x800.webp"
+                    alt="Professional pond consultation services"
+                    width={400}
+                    height={320}
+                    className="w-full h-48 object-cover"
+                  />
                 </Link>
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold mb-3 text-gray-800">Pond Consultation</h3>
+                  <p className="text-gray-600 mb-4 text-sm">Get expert advice and planning for your water feature project from our experienced team</p>
+                  <Link href="/pond-consultations" className="bg-red-600 text-white px-4 py-2 rounded text-sm font-semibold hover:bg-red-700 transition-colors">
+                    LEARN MORE
+                  </Link>
+                </div>
+              </div>
+            </div>
+            
+            {/* Third Row - 3 Columns */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                <Link href="/pond-supplies">
+                  <Image
+                    src="/images/pondMaintenance.webp"
+                    alt="Pond supplies and equipment"
+                    width={400}
+                    height={320}
+                    className="w-full h-48 object-cover"
+                  />
+                </Link>
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold mb-3 text-gray-800">Pond Supplies</h3>
+                  <p className="text-gray-600 mb-4 text-sm">Quality supplies and equipment for maintaining and enhancing your pond</p>
+                  <Link href="/pond-supplies" className="bg-red-600 text-white px-4 py-2 rounded text-sm font-semibold hover:bg-red-700 transition-colors">
+                    LEARN MORE
+                  </Link>
+                </div>
               </div>
               
-              <div className="bg-white rounded-lg shadow-md p-5 hover:shadow-lg transition-shadow">
-                <div className="text-3xl text-red-600 mb-3">
-                  <i className="fas fa-truck"></i>
-                </div>
-                <h3 className="text-lg font-semibold mb-2">Plant Delivery</h3>
-                <p className="text-gray-600 mb-3 text-sm">Convenient delivery of aquatic plants and koi to your location.</p>
-                <Link href="/plant-delivery" className="text-red-600 hover:text-red-700 font-semibold text-sm">
-                  Learn More →
+              <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                <Link href="/pond-services">
+                  <Image
+                    src="/images/pondDredging.webp"
+                    alt="Vacuum services for pond cleaning"
+                    width={400}
+                    height={320}
+                    className="w-full h-48 object-cover"
+                  />
                 </Link>
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold mb-3 text-gray-800">Vac Services</h3>
+                  <p className="text-gray-600 mb-4 text-sm">Professional vacuum services for thorough pond cleaning and debris removal</p>
+                  <Link href="/pond-services" className="bg-red-600 text-white px-4 py-2 rounded text-sm font-semibold hover:bg-red-700 transition-colors">
+                    LEARN MORE
+                  </Link>
+                </div>
               </div>
               
-              <div className="bg-white rounded-lg shadow-md p-5 hover:shadow-lg transition-shadow">
-                <div className="text-3xl text-red-600 mb-3">
-                  <i className="fas fa-filter"></i>
-                </div>
-                <h3 className="text-lg font-semibold mb-2">Pond Filters</h3>
-                <p className="text-gray-600 mb-3 text-sm">High-quality filtration systems for crystal clear water.</p>
-                <Link href="/pond-filters" className="text-red-600 hover:text-red-700 font-semibold text-sm">
-                  Learn More →
+              <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                <Link href="/pumps">
+                  <Image
+                    src="/images/pondConstruction1000x800.webp"
+                    alt="Pond pump repair and maintenance"
+                    width={400}
+                    height={320}
+                    className="w-full h-48 object-cover"
+                  />
                 </Link>
-              </div>
-              
-              <div className="bg-white rounded-lg shadow-md p-5 hover:shadow-lg transition-shadow">
-                <div className="text-3xl text-red-600 mb-3">
-                  <i className="fas fa-pump-soap"></i>
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold mb-3 text-gray-800">Pump Repair</h3>
+                  <p className="text-gray-600 mb-4 text-sm">Expert pump repair and maintenance services to keep your water feature running smoothly</p>
+                  <Link href="/pumps" className="bg-red-600 text-white px-4 py-2 rounded text-sm font-semibold hover:bg-red-700 transition-colors">
+                    LEARN MORE
+                  </Link>
                 </div>
-                <h3 className="text-lg font-semibold mb-2">Pond Pumps</h3>
-                <p className="text-gray-600 mb-3 text-sm">Essential pump systems for water circulation and aeration.</p>
-                <Link href="/pumps" className="text-red-600 hover:text-red-700 font-semibold text-sm">
-                  Learn More →
-                </Link>
-              </div>
-              
-              <div className="bg-white rounded-lg shadow-md p-5 hover:shadow-lg transition-shadow">
-                <div className="text-3xl text-red-600 mb-3">
-                  <i className="fas fa-comments"></i>
-                </div>
-                <h3 className="text-lg font-semibold mb-2">Consultations</h3>
-                <p className="text-gray-600 mb-3 text-sm">Expert advice and planning for your water feature project.</p>
-                <Link href="/pond-consultations" className="text-red-600 hover:text-red-700 font-semibold text-sm">
-                  Learn More →
-                </Link>
               </div>
             </div>
           </div>
