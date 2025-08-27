@@ -172,51 +172,7 @@
   transition: var(--transition-fast);
 }
 
-/* Footer Styles */
-.footer {
-  background: var(--gray-900);
-  color: var(--white);
-  padding: var(--spacing-3xl) 0 var(--spacing-xl);
-}
-
-.footer-content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: var(--spacing-2xl);
-  margin-bottom: var(--spacing-2xl);
-}
-
-.footer-section h3 {
-  color: var(--primary-blue-light);
-  margin-bottom: var(--spacing-lg);
-  font-size: 1.125rem;
-  font-weight: 600;
-}
-
-.footer-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-section ul li {
-  margin-bottom: var(--spacing-sm);
-}
-
-.footer-section ul li a {
-  color: var(--gray-300);
-  transition: var(--transition-fast);
-}
-
-.footer-section ul li a:hover {
-  color: var(--primary-blue-light);
-}
-
-.footer-bottom {
-  border-top: 1px solid var(--gray-700);
-  padding-top: var(--spacing-lg);
-  text-align: center;
-  color: var(--gray-400);
-}
+/* Footer styles are now in globals.css to avoid duplication */
 
 /* Responsive Design */
 @media (max-width: 768px) {

@@ -1,41 +1,10 @@
 'use client';
 import Link from 'next/link';
-import Image from 'next/image';
 import { HeroSlideshow } from '@/components/layout/HeroSlideshow';
-import { Footer } from '@/components/layout/Footer';
 
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Header with Navigation */}
-      <header className="bg-gradient-to-r from-red-600 to-red-800 text-white">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-4">
-              <Image
-                src="/images/utahWaterGardensLogoHoriz.webp"
-                alt="Utah Water Gardens"
-                width={200}
-                height={60}
-                className="h-12 w-auto"
-              />
-            </div>
-            <nav className="hidden lg:flex items-center space-x-8">
-              <Link href="/" className="hover:text-red-200 transition-colors">Home</Link>
-              <Link href="/pond-services" className="hover:text-red-200 transition-colors">Pond Services</Link>
-              <Link href="/plants-fish" className="hover:text-red-200 transition-colors">Plants & Fish</Link>
-              <Link href="/resources" className="hover:text-red-200 transition-colors">Resources</Link>
-              <Link href="/contact" className="hover:text-red-200 transition-colors">Contact</Link>
-            </nav>
-            <div className="lg:hidden">
-              <button className="text-white">
-                <i className="fas fa-bars text-xl"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-      </header>
-      
       {/* Hero Section */}
       <HeroSlideshow />
       
@@ -133,9 +102,6 @@ export default function HomePage() {
           </div>
         </section>
       </main>
-      
-      {/* Footer */}
-      <Footer />
     </div>
   );
 }
