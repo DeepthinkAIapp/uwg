@@ -352,9 +352,10 @@ export default function PondHarvestingPage() {
             <p>Improve fishing quality with larger, healthier fish and better catch rates</p>
           </div>
 
-          <div className="benefit-item">
-            <div className="fas fa-leaf"></i>
-            </div>
+                        <div className="benefit-item">
+                <div className="benefit-icon">
+                  <i className="fas fa-leaf"></i>
+                </div>
             <h4>Ecosystem Health</h4>
             <p>Maintain a balanced, sustainable pond ecosystem for long-term enjoyment</p>
           </div>

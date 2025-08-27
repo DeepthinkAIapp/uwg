@@ -337,7 +337,8 @@ export default function DredgingAPondInUtahPage() {
           </div>
 
           <div className="benefit-item">
-            <div className="fas fa-leaf"></i>
+            <div className="benefit-icon">
+              <i className="fas fa-leaf"></i>
             </div>
             <h4>Better Aquatic Plant Balance</h4>
             <p>Create conditions for healthy aquatic plant growth without overgrowth in Utah's growing season</p>
