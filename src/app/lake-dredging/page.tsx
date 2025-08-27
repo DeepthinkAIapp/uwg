@@ -12,27 +12,7 @@ export default function LakeDredgingPage() {
         { label: 'Pond Services', href: '/pond-services' },
         { label: 'Lake Dredging' }
       ]}
-      showFAQ={true}
-      faqs={[
-        {
-          question: "When does a lake need dredging?",
-          answer: "Lakes typically need dredging when sediment buildup reduces water depth by 30% or more, when water quality deteriorates significantly, or when navigation and recreational use are compromised. Large lakes may need dredging every 10-20 years."
-        },
-        {
-          question: "How long does lake dredging take?",
-          answer: "Lake dredging time depends on lake size, sediment depth, and access. Small lakes (1-5 acres) typically take 1-2 weeks, while larger lakes (10+ acres) may take 1-3 months. We'll provide a detailed timeline during consultation."
-        },
-        {
-          question: "What equipment do you use for lake dredging?",
-          answer: "We use specialized equipment including hydraulic dredges, mechanical dredges, and environmental dredges depending on the lake size and sediment type. For large lakes, we may use floating dredges and pipeline systems."
-        },
-        {
-          question: "Do you handle environmental permits for lake dredging?",
-          answer: "Yes, we assist with all necessary permits and environmental compliance for lake dredging projects. This includes water quality permits, wildlife protection measures, and sediment disposal permits."
-        }
-      ]}
-      metaTitle="Lake Dredging Utah | Professional Lake Sediment Removal"
-      metaDescription="Professional lake dredging services in Utah. Large-scale sediment removal, depth restoration, and water quality improvement for lakes, reservoirs, and commercial water bodies."
+
     >
       <div className="content-section">
         <h2>Expert Lake Dredging Services</h2>

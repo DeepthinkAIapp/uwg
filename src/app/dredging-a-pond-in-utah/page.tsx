@@ -1,39 +1,39 @@
 ﻿import { PageTemplate } from '@/components/layout/PageTemplate';
+import { FAQSection } from '@/components/sections/FAQSection';
 import Link from 'next/link';
 
 export default function DredgingAPondInUtahPage() {
+  const faqs = [
+    {
+      question: "Why do ponds in Utah need dredging?",
+      answer: "Utah&apos;s climate with seasonal temperature changes, wind, and occasional storms causes natural sediment buildup. Over time, this reduces pond depth, affects water quality, and can harm fish and plants. Regular dredging maintains optimal pond conditions."
+    },
+    {
+      question: "How often should I dredge my pond in Utah?",
+      answer: "Most Utah ponds need dredging every 5-10 years, depending on size, fish population, and surrounding environment. Ponds with heavy leaf fall or runoff may need more frequent dredging. We&apos;ll assess your specific situation."
+    },
+    {
+      question: "What&apos;s the best time of year for dredging in Utah?",
+      answer: "Spring and fall are ideal for dredging in Utah. Spring dredging prepares ponds for the growing season, while fall dredging removes summer debris before winter. We avoid dredging during extreme heat or when fish are spawning."
+    },
+    {
+      question: "How do you handle the dredged material in Utah?",
+      answer: "We handle dredged material according to Utah regulations. Clean sediment can be spread as topsoil, while contaminated material is disposed of at approved facilities. We&apos;ll assess the material and recommend the best disposal method."
+    }
+  ];
+
   return (
-    <PageTemplate
-      heroTitle="Dredging a Pond in Utah"
-      heroSubtitle="Expert sediment removal and pond restoration for Utah&apos;s unique climate"
-      heroImage="/images/pondDredging.webp"
-      heroAlt="Professional pond dredging service in Utah"
-      breadcrumbs={[
-        { label: 'Pond Services', href: '/pond-services' },
-        { label: 'Dredging a Pond in Utah' }
-      ]}
-      showFAQ={true}
-      faqs={[
-        {
-          question: "Why do ponds in Utah need dredging?",
-          answer: "Utah&apos;s climate with seasonal temperature changes, wind, and occasional storms causes natural sediment buildup. Over time, this reduces pond depth, affects water quality, and can harm fish and plants. Regular dredging maintains optimal pond conditions."
-        },
-        {
-          question: "How often should I dredge my pond in Utah?",
-          answer: "Most Utah ponds need dredging every 5-10 years, depending on size, fish population, and surrounding environment. Ponds with heavy leaf fall or runoff may need more frequent dredging. We&apos;ll assess your specific situation."
-        },
-        {
-          question: "What&apos;s the best time of year for dredging in Utah?",
-          answer: "Spring and fall are ideal for dredging in Utah. Spring dredging prepares ponds for the growing season, while fall dredging removes summer debris before winter. We avoid dredging during extreme heat or when fish are spawning."
-        },
-        {
-          question: "How do you handle the dredged material in Utah?",
-          answer: "We handle dredged material according to Utah regulations. Clean sediment can be spread as topsoil, while contaminated material is disposed of at approved facilities. We&apos;ll assess the material and recommend the best disposal method."
-        }
-      ]}
-      metaTitle="Dredging a Pond in Utah | Professional Sediment Removal"
-      metaDescription="Professional pond dredging services in Utah. Expert sediment removal and pond restoration for Utah&apos;s unique climate. Call 801-590-8516 today!"
-    >
+    <>
+      <PageTemplate
+        heroTitle="Dredging a Pond in Utah"
+        heroSubtitle="Expert sediment removal and pond restoration for Utah&apos;s unique climate"
+        heroImage="/images/pondDredging.webp"
+        heroAlt="Professional pond dredging service in Utah"
+        breadcrumbs={[
+          { label: 'Pond Services', href: '/pond-services' },
+          { label: 'Dredging a Pond in Utah' }
+        ]}
+      >
       <div className="content-section">
         <h2>Dredging a Pond in Utah</h2>
         <p>
@@ -450,6 +450,9 @@ export default function DredgingAPondInUtahPage() {
           </Link>
         </div>
       </div>
-    </PageTemplate>
+      </PageTemplate>
+      
+      <FAQSection faqs={faqs} />
+    </>
   );
 }
