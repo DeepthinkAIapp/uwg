@@ -12,27 +12,7 @@ export default function LakeHarvestingPage() {
         { label: 'Pond Services', href: '/pond-services' },
         { label: 'Lake Harvesting' }
       ]}
-      showFAQ={true}
-      faqs={[
-        {
-          question: "What is lake harvesting and how does it differ from pond harvesting?",
-          answer: "Lake harvesting involves managing fish populations in larger water bodies (typically 5+ acres). It requires different equipment and techniques than pond harvesting, including larger nets, boats, and more sophisticated population assessment methods."
-        },
-        {
-          question: "How often should a lake be harvested?",
-          answer: "Harvesting frequency depends on lake size, fish population density, and management goals. Most lakes benefit from harvesting every 2-5 years. We'll assess your specific lake and recommend an optimal schedule."
-        },
-        {
-          question: "What types of fish do you harvest from lakes?",
-          answer: "We harvest various species including bass, trout, catfish, bluegill, and other game fish. The specific species targeted depends on your lake's ecosystem and management objectives."
-        },
-        {
-          question: "Do you provide post-harvesting management services?",
-          answer: "Yes, we offer comprehensive post-harvesting services including water quality monitoring, fish health assessment, and recommendations for ongoing lake management and future harvesting schedules."
-        }
-      ]}
-      metaTitle="Lake Harvesting Utah | Professional Fish Population Management"
-      metaDescription="Professional lake harvesting services in Utah. Expert fish population management, ecosystem optimization, and large water body management. Call 801-590-8516 today!"
+
     >
       <div className="content-section">
         <h2>Expert Lake Harvesting Services</h2>
